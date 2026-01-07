@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zayra Store</title>
+  <link rel="stylesheet" href="styles/navigation/nav.css">
+  <link rel="stylesheet" href="styles/loader/loader.css">
+  <link rel="stylesheet" href="styles/footer/footer.css">
+  <link rel="stylesheet" href="styles/fade-up/fadeup.css">
+  <link rel="stylesheet" href="styles/navigation/sub-nav.css">
+  <link rel="stylesheet" href="styles/login/login.css">
+  <link rel="stylesheet" href="styles/navigation/wishlist.css">
+  <link rel="stylesheet" href="styles/shop/items.css">
+  <link rel="stylesheet" href="styles/checkout/orders.css">
+  <link rel="stylesheet" href="styles/cart/cart.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+  <link rel="stylesheet" href="styles/navigation/interval.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles/subHover/subhover.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=GFS+Didot&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- media queries -->
+  <link rel="stylesheet" href="styles/media/nav.css">
+  <link rel="stylesheet" href="styles/media/shop.css">
+  <link rel="stylesheet" href="styles/media/main.css">
+
+</head>
+
+<body>
+
+    <!-- Empty Cart Display -->
+
+  <div class="emptyWishes">      
+      <img src="images/icons/personal_bag_question_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="emptyLuggage">
+      <p>You Have No wishlist Yet</p>
+      <a href="shop.html"><button>BROWSE THE SHOP</button></a>
+  </div>
+
+   <nav class="wishesNav">
+    <div class="WishesSub">
+      <div class="wishesButton">
+        <a href="shop.html">
+          <button>
+            <span>
+              <img src="images/icons/arrow_left_alt_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="arrowLeft">
+            </span>Continue</button>
+        </a>
+      </div>
+      <div class="Wishesleft">
+        <a href="index.html">
+          <img src="images/logo/zayra-logo-1.webp" alt="ZaraLogo">
+        </a>
+      </div>
+
+      <div class="wishesCont">
+        <a>
+          <img src="images/icons/favorite_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="helpIcon">
+          <p>WISHLIST</p>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main> 
+    <section class="wishlist-container">
+
+      <div class="wishCont">
+        <div class="wishCard">
+
+             <div class="imageDesc">
+                <div class="imageContainer">
+                  <img src="images/shopItems/2149153329.webp" src="image" alt="checkoutImage">
+                </div>
+                <div class="descriptionContainer">
+                  <div class="priceDesc">
+                    <h1>Slim Stacked Flare Embroidered Strip Tricot Track Pants</h1>
+                    <p>$22.30</p>
+                  </div>
+                  <button class="js-deleteWish">
+                    <img src="images/icons/delete_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="deleteIcon">
+                  </button>
+                </div>
+              </div>
+
+              <div class="buttonsContainer js-addWishes">
+                  <button>Add To Cart</button>
+              </div>
+
+        </div>
+      </div>
+      
+      <div class="wishCont">
+        <div class="wishCard">
+
+             <div class="imageDesc">
+                <div class="imageContainer">
+                  <img src="images/shopItems/2149684356.webp" src="image" alt="checkoutImage">
+                </div>
+                <div class="descriptionContainer">
+                  <div class="priceDesc">
+                    <h1>Slim Stacked Flare Embroidered Strip Tricot Track Pants</h1>
+                    <p>$22.30</p>
+                  </div>
+                  <button class="js-deleteWish">
+                    <img src="images/icons/delete_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="deleteIcon">
+                  </button>
+                </div>
+              </div>
+
+              <div class="buttonsContainer js-addWishes">
+                  <button>Add To Cart</button>
+              </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+  <script src="scripts/wishelist.js"></script>
+</body>
+
+</html>

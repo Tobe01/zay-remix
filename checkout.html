@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zayra Store</title>
+  <link rel="stylesheet" href="styles/navigation/nav.css">
+  <link rel="stylesheet" href="styles/loader/loader.css">
+  <link rel="stylesheet" href="styles/main/main.css">
+  <link rel="stylesheet" href="styles/footer/footer.css">
+  <link rel="stylesheet" href="styles/fade-up/fadeup.css">
+  <link rel="stylesheet" href="styles/navigation/sub-nav.css">
+  <link rel="stylesheet" href="styles/shop/items.css">
+  <link rel="stylesheet" href="styles/shop/shop.css">
+  <link rel="stylesheet" href="styles/cart/cart.css">
+  <link rel="stylesheet" href="styles/navigation/interval.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles/subHover/subhover.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=GFS+Didot&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+   <!-- media queries -->
+  <link rel="stylesheet" href="styles/media/nav.css">
+  <link rel="stylesheet" href="styles/media/shop.css">
+  <link rel="stylesheet" href="styles/media/main.css">
+
+</head>
+
+<body>
+  <!-- From Uiverse.io by Praashoo7 --> 
+   <div class="loader js-loader">
+   
+  </div>
+
+  <nav class="header-nav js-header-nav">
+    <!-- Contents called inside nav file in javaScript -->
+
+  </nav>
+
+  <main>
+      
+    <section class="checkout">
+
+      <!-- Empty Cart Display -->
+
+      <div class="emptyCart">      
+         <img src="images/icons/local_mall_Dark.svg" alt="localMallIcon">
+         <p>Your Cart is Empty</p>
+         <button>BROWSE THE SHOP</button>
+      </div>
+
+      <!-- CartItems Display -->
+
+      <div class="checkoutParent js-checkNumber">
+        <h1>Shopping Cart (5)</h1>
+       <div class="deliveredBy js-shopCart">
+        <!-- <h1></h1> -->
+       </div>
+      
+       <div class="mainCheckout-container">
+
+        <div class="Array-container">
+
+          <div class="checkoutLeft js-checkoutLeft">
+          <!-- rendered in checkout.js -->
+          </div>
+
+        </div>
+         
+        <div class="js-OrderContainer">
+         <!-- Rendered in cart.js -->
+          <div class="OrderSummary">
+              <div class="orderSummary-Top">
+                <h1>Order Summary</h1>
+                <div class="orderfirst">
+                  <div class="subtotal">
+                    <p>Subtotal</p>
+                    <p>$58.00</p>
+                  </div>
+                  <div class="discount">
+                    <p>Discount</p>
+                    <p>$-6.60</p>
+                  </div>
+                </div>
+
+                <div class="orderSecond">
+                  <div class="orderTotal">
+                    <p>Order total</p>
+                    <p>$51.40</p>
+                  </div>
+
+                  <div class="orderDiscount">
+                    <h4>Discounts included:</h4>
+                    <p>boohooMAN Up to 70% SALE <span>-£6.60</span></p>
+                  </div>
+                </div>
+
+                <div class="add-container">
+                    <a  href="orders.html"><button>CHECKOUT</button></a>
+                    <button><img src="images/icons/apple.webp" alt="apple-logo" loading="lazy"> Pay</button>
+                    <button><img src="images/payments/PayPal_Logo_Horizontal_Full_Color_RGB-002-1.webp" alt="paypal-icon"> Checkout</button>
+                </div>
+
+                <div class="orderBottom">
+                  <img src="images/payments/068BjcjwBw0snwHIq0KNo5m-15.webp" alt="paymentsLogo">
+                  <img src="images/payments/images (1).webp" alt="paymentsLogo">
+                  <img src="images/payments/Mclick.webp" alt="paymentsLogo">
+                  <img src="images/payments/apple-pay.webp" alt="paymentsLogo">
+                  <img src="images/payments/images (1).webp" alt="paymentsLogo">
+                  <img src="images/payments/images.webp" alt="paymentsLogo">
+                  <img src="images/payments/Mclick.webp" alt="paymentsLogo">
+                  <img src="images/payments/images (1).webp" alt="paymentsLogo">
+                  <img src="images/payments/images (1).webp" alt="paymentsLogo">
+                </div>
+              </div>
+
+              <div class="promoPromo">
+                <h3>Promo Code</h3>
+                <div class="promoIn">
+                  <input type="search" placeholder="Enter code here...">
+                  <button>APPLY</button>
+                </div>
+              </div>
+          </div>
+        </div>
+
+       </div>
+
+      </div>
+    </section>
+   
+  </main>
+  
+  <script type="module" src="scripts/checkout/checkout.js"></script>
+</body>
+
+</html>
