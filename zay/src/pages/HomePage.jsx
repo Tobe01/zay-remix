@@ -1,0 +1,423 @@
+import { useState, useEffect } from 'react'
+import { Helmet } from 'react-helmet-async';
+import { Header } from '../components/Header';
+import { Footer } from '../components/Footer';
+import { Loader } from '../loaders/Loaders';
+import './HomePage.css';
+import '../mediaQueries/Main.css';
+import '../mediaQueries/Nav.css';
+
+export function HomePage(){
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 800)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (loading) {
+    return ( <Loader /> )
+  };
+
+  return(
+    <>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
+
+      <Header />
+      <div className="main-container">
+
+          <div className="first-banner-container">
+            <img src="images/banners/Grey and Brown Modern Fashion Shop Etsy Shop Cover.gif" alt="banner" loading="lazy" />
+          </div>
+
+          <div className="threeCards-container js-threeCards">
+              <div className="women js-cards">
+                  <a href="shop.html">
+                    <img src="images/women/2927.webp" alt="women" loading="lazy" />
+                    <div className="threeCardsLabel">
+                        <p>WOMEN'S</p>
+                    </div>
+                  </a>
+              </div>
+
+              <div className="women js-cards">
+                  <a href="shop.html">
+                    <img src="images/kids/2149328403.webp" alt="women" loading="lazy" />
+                    <div className="threeCardsLabel">
+                        <p>KIDS</p>
+                    </div>
+                  </a>
+              </div>
+
+              <div className="women js-cards">
+                  <a href="shop.html">
+                    <img src="images/men/2927.webp" alt="women" loading="lazy" />
+                    <div className="threeCardsLabel">
+                        <p>MEN'S</p>
+                    </div>
+                  </a>
+              </div>
+          </div>
+
+          <div className="second-banner-container fade-in-up">
+            <img src="images/banners/1234.png" alt="secondBanner" loading="lazy" />
+          </div>
+
+          <div className="fourSquare">
+            <div className="fourCards-container js-fourContainer">
+                <div className="fourCards-first fade-in-up">
+                  <a href="shop.html">
+                    <div className="cards-img-container">
+                      <img src="images/kids/2147825039.webp" alt="women" loading="lazy" />
+                      <div className="exclusives">
+                        <div className="sub-ex">
+                        <p>40-50% OFF<span>&reg;</span></p>
+                        </div>
+                        <p>ICONIC EXCLUSIVES</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div className="fourCards-first fade-in-up">
+                  <a href="shop.html">
+                    <div className="cards-img-container">
+                      <img src="images/brandsItems/2148660618.webp" alt="women" loading="lazy" />
+                      <div className="exclusives">
+                        <div className="sub-ex">
+                        <p>30-50% OFF<span>&reg;</span></p>
+                        </div>
+                        <p>DRESSES</p>
+                      </div>
+                      </div>
+                  </a>
+                </div>
+
+                <div className="fourCards-first fade-in-up">
+                  <a href="shop.html">
+                    <div className="cards-img-container">
+                      <img src="images/women/2147652152.webp" alt="women" loading="lazy" />
+                      <div className="exclusives">
+                        <div className="sub-ex">
+                        <p>UP TO 40% OFF<span>&reg;</span></p>
+                        </div>
+                        <p>FOOTWEARS</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div className="fourCards-first fade-in-up">
+                  <a href="shop.html">
+                    <div className="cards-img-container">
+                      <img src="images/women/2148385673.webp" alt="women" loading="lazy" />
+                      <div className="exclusives">
+                        <div className="sub-ex">
+                        <p>30% OFF<span>&reg;</span></p>
+                        </div>
+                        <p>DESIGNERS</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+            </div>
+
+            <div className="fourCards-details">
+              <p>Ends 6:59AM AEST 30 September 2025. Selected brands, styles and colours listed. Subject to T&C's.</p>
+            </div>
+          </div>
+
+          <div className="six-main">
+              <div className="sixCards-details">
+                <p>Shop Your Favourites</p>
+              </div>
+
+              <div className="sixCards-container">
+                <a href="shop.html">
+                  <div className="dress fade-in-up">
+                    <img src="images/brandsItems/2147897735.webp" alt="women" loading="lazy" />
+                    <div>Dresses</div>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                  <div className="dress fade-in-up">
+                    <img src="images/brandsItems/2148801500.webp" alt="kids" loading="lazy" />
+                    <div>Coats & Jackets</div>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                <div className="dress fade-in-up">
+                  <img src="images/brandsItems/2147966018.webp" alt="men" loading="lazy" />
+                  <div>Knitwear</div>
+                </div>
+                </a>
+
+                <a href="shop.html">
+                <div className="dress fade-in-up">
+                  <img src="images/brandsItems/13201.webp" alt="men" loading="lazy" />
+                  <div>Jeans</div>
+                </div>
+                </a>
+
+                <a href="shop.html">
+                  <div className="dress fade-in-up">
+                    <img src="images/brandsItems/2148984674.webp" alt="women" loading="lazy" />
+                    <div>Flats</div>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                <div className="dress fade-in-up">
+                    <img src="images/brandsItems/2148267338.webp" alt="kids" loading="lazy" />
+                    <div>Activewear</div>
+                </div>
+                </a>
+              </div>
+          </div>
+
+          <div className="banner-container3 fade-in-up">
+            <img src="images/banners/Yellow Pink Bold Fashion Sale New Collection Banner 1.gif" alt="banner" loading="lazy" />
+          </div>
+
+          <div className="threeEach-container">
+              <div className="threeEach-details">
+                <p>Shop The Latest</p>
+              </div>
+
+              <div className="threeEach">     
+                  <a href="shop.html">
+                    <div className="card fade-in-up">
+                        <img src="images/women/29021.webp" alt="women" loading="lazy" />
+                      <div className="contents-div">
+                        <h3>The Statement Edit</h3>
+                        <p>Bold pieces designed to showcase individuality and turn every entrance into a moment.</p>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="shop.html">
+                    <div className="card fade-in-up">
+                      <img src="images/women/14295.webp" alt="kids" loading="lazy" />
+                      <div className="contents-div">
+                        <h3>The Power Move Collection</h3>
+                        <p>Sharp, confident looks that balance modern sophistication with everyday ease.</p>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="shop.html">
+                      <div className="card fade-in-up">
+                        <img src="images/women/2149153357.webp" alt="men" loading="lazy" />
+                        <div className="contents-div">
+                          <h3>The Effortless Wave</h3>
+                          <p>Relaxed yet refined styles that transition seamlessly from day to night.</p>
+                        </div>
+                      </div>
+                  </a>
+
+                  <a href="shop.html">
+                    <div className="card fade-in-up">
+                        <img src="images/women/2149068952.webp" alt="women" loading="lazy" />
+                      <div className="contents-div">
+                        <h3>The Luxe Touch</h3>
+                        <p>Timeless designs crafted with premium detail for an elevated wardrobe.</p>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="shop.html">
+                    <div className="card fade-in-up">
+                      <img src="images/women/3841.webp" alt="kids" loading="lazy" />
+                      <div className="contents-div">
+                        <h3>The Vibrance Series</h3>
+                        <p>Playful, expressive cuts that bring energy and freshness to your style.</p>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="shop.html">
+                    <div className="card fade-in-up">
+                        <img src="images/women/2150677147.webp" alt="men" loading="lazy" />
+                      <div className="contents-div">
+                        <h3>The Bold Elegance Collection</h3>
+                        <p>Sophisticated pieces with a daring edge for unforgettable impressions.</p>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+
+              <div className="action-container">
+                <div className="purchase-container">
+                  <a>NEW HERE? %10 OFF YOUR FIRST PURCHASE</a>
+                </div>
+
+                <div className="refer-container">
+                  <a>GET ₦5k CREDIT WHEN YOU REFER A FRIEND</a>
+                </div>
+              </div>
+          </div>
+
+          <div className="fourSquare">
+              <div className="topsellers-container">
+                <p>Shop by Category</p>
+              </div>
+
+              <div className="eightCards-container">
+                <a href="shop.html">
+                  <div className="eight-cards-img-container fade-in-up">
+                    <img src="images/brandsItems/101172.webp" alt="women" loading="lazy" />
+                    <p>Sports</p>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                  <div className="eight-cards-img-container fade-in-up">
+                    <img src="images/brandsItems/2147656957.webp" alt="women" loading="lazy" />
+                    <p>Beauty</p>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                  <div className="eight-cards-img-container fade-in-up">
+                    <img src="images/brandsItems/9398.webp" alt="men" loading="lazy" />
+                    <p>Women's Designer</p>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                  <div className="eight-cards-img-container fade-in-up">
+                    <img src="images/brandsItems/2148852574.webp" alt="men" loading="lazy" />
+                    <p>Men's Designer</p>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                  <div className="eight-cards-img-container fade-in-up">
+                    <img src="images/brandsItems/2147914189.webp" alt="women" loading="lazy" />
+                    <p>Re-ZAYRA</p>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                  <div className="eight-cards-img-container fade-in-up">
+                    <img src="images/brandsItems/2148818498.webp" alt="women" loading="lazy" />
+                    <p>Home</p>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                  <div className="eight-cards-img-container fade-in-up">
+                    <img src="images/brandsItems/2148630641.webp" alt="men" loading="lazy" />
+                    <p>Toys</p>
+                  </div>
+                </a>
+
+                <a href="shop.html">
+                  <div className="eight-cards-img-container fade-in-up">
+                    <img src="images/brandsItems/26461.webp" alt="men" loading="lazy" />
+                    <p>Considered</p>
+                  </div>
+                </a>
+              </div>
+
+              <div className="topsellers-down">
+                <p>This Week’s Top Sellers</p>
+              </div>
+          </div>
+
+          <div className="brandsContainer fade-in-up">
+            <div className="brandsDescription">
+              <p>Shop brands</p>
+            </div>
+
+            <div className="brandsCards js-brands js-brandsContainer">
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Fashion Brand Art Design Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/stones-and-bones-pdHQR3lA-mg-unsplash.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Beige Minimalist brand fashion logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/101931.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Black & White Minimalist Business Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/30792.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Black & White Modern Professional Fashion Clothing Brand Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/105526.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Black minimalis brand fashion logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/1528.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Black Minimalist Fashion Brand Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148310034.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Black White Minimal Modern Simple Bold Business Mag Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148733312.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Black White Minimalist Professional Initial Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148665680.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Black White Minimalist Simple Monogram Typography Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148316178.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Initial Brand Fashion Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/27926.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Cream Black Typography Loop Brand Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148336544.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+              <a href="#">
+                  <div className="brandsCards-container js-brandsCards">
+                    <img className="brandsImg1 js-firstImg" src="images/brands/Minimalist typography brand Fashion Logo-Photoroom.png" alt="brand" loading="lazy" />
+                    <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148098447.webp" alt="brand" loading="lazy" />
+                  </div>
+              </a>   
+            </div>
+
+            <div className="brandsButton">
+              <a href="shop.html">
+                <button>SHOP ALL BRANDS</button>
+              </a>
+            </div>
+          </div>
+      </div>
+      <Footer />
+    </>
+  )
+};
