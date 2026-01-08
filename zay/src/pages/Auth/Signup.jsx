@@ -1,4 +1,5 @@
 import {  SignupHeader } from '../../components/SignupHeader';
+import './Signup.css';
 
 export function SignUp(){
   return(

@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router';
 import './Header.css';
 import './Header/interval.css';
 import './Header/sub-nav.css';
@@ -24,20 +25,20 @@ export function Header(){
               </div>
 
               <div className="mobile-right">
-                <a href="/Signup"><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="personIcon" /></a>
-                <a href="wishlist.html">
+                <NavLink to="/Login"><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="personIcon" /></NavLink>
+                <NavLink to="/wishlist">
                   <span className="favContainer js-love">
                     <img src="images/icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="favIcon" />
                     <div className="quantity js-fav">0</div>
                   </span>
-                </a>
+                </NavLink>
 
-                <a href="checkout.html">
+                <NavLink to="/checkout">
                   <span className="quantityContainer">
                     <img src="images/icons/local_mall_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="localMall" />
                     <div className="quantity js-bag">0</div>
                   </span>
-                </a>
+                </NavLink>
               </div>
           </div>
 
@@ -56,114 +57,114 @@ export function Header(){
           <div className="HamburgerContainer js-hamburgerContainer">     
             <div className="hamburgerItems js-hamburgerItems">
                 <div className="closeContainer">
-                  <a href="index.html">
+                  <NavLink to="/">
                   <img src="images/logo/zayra-logo-1.webp" alt="zayraLogo" />
-                  </a>
+                  </NavLink>
                     
                   <span className="closeWin">
                     <img src="images/icons/close_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="closeIcon" />
                   </span>
                 </div>
                 <div className="directoriesContainer">
-                    <a href="index.html">
+                    <NavLink to="/">
                       <div>
                         <img src="images/icons/home_app_logo_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="homeIcon" />
                         <p>Home</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                           <img src="images/icons/person_heart_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="womenIcon" />
                           <p>Women</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/person_shield_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="menIcon" />
                         <p>Men</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/face_left_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="kidsIcon" />
                         <p>Kids</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/sports_football_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="SportsIcon" />
                         <p>Sport</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/spa_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="beautyIcon" />
                         <p>Beauty</p>
                       </div>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div className="NewItemsContainer">
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/notifications_unread_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="newIcon" />
                         <p>NEW IN</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/laundry_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="laudryIcon" />
                         <p>CLOTHING</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/footprint_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="shoesIcon" />
                         <p>SHOES</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/aod_watch_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="watchIcon" />
                         <p>ACCESSORIES</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/sports_football_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="footbalIcon" />
                         <p>SPORTS</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/brand_family_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="brandsIcon" />
                         <p>BRANDS</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">
+                    <NavLink to="shop.html">
                       <div>
                         <img src="images/icons/checkroom_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="checkroomIcon" />
                         <p>DESIGNER</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="shop.html">  
+                    <NavLink to="shop.html">  
                       <div>
                         <img src="images/icons/price_check_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="priceIcon" />
                         <p>SALE</p>
                       </div>
-                    </a>
+                    </NavLink>
 
                 </div>
             </div>
@@ -172,36 +173,36 @@ export function Header(){
        
       <div className="top-nav js-navigation">
         <div className="top-nav-items">
-            <a>
+            <NavLink>
               <span><p>Contact & FAQs</p></span>
-            </a>
-            <a>
+            </NavLink>
+            <NavLink>
               <span><p>Delivery</p></span>
-            </a>
-            <a>
+            </NavLink>
+            <NavLink>
               <span><p>Returns</p></span>
-            </a>
-            <a>
+            </NavLink>
+            <NavLink>
               <span><p>Track Orders</p></span>
-            </a>
-            <a>
+            </NavLink>
+            <NavLink>
               <span><p>Share Your Ideas</p></span>
-            </a>
-            <a>
+            </NavLink>
+            <NavLink>
               <span><p>Gift Cards</p></span>
-            </a>
+            </NavLink>
           </div>
       </div>
             
       <div className="middle-nav js-navigation">
           <div className="left js-left-items">
-              <a href="index.html"><div>ZAYRA</div></a>
-              <a href="shop.html"><p>WOMEN</p></a>
-              <a href="shop.html"><p>MEN</p></a>
-              <a href="shop.html"><p>KIDS</p></a>
-              <a href="shop.html"><p>SPORT</p></a>
-              <a href="shop.html"><p>BEAUTY</p></a>
-              <a href="shop.html"><p>HOME</p></a>
+              <NavLink to="/"><div>ZAYRA</div></NavLink>
+              <NavLink to="shop.html"><p>WOMEN</p></NavLink>
+              <NavLink to="shop.html"><p>MEN</p></NavLink>
+              <NavLink to="shop.html"><p>KIDS</p></NavLink>
+              <NavLink to="shop.html"><p>SPORT</p></NavLink>
+              <NavLink to="shop.html"><p>BEAUTY</p></NavLink>
+              <NavLink to="shop.html"><p>HOME</p></NavLink>
           </div>
           <div className="right">
             <div className="right-sub">
@@ -212,23 +213,23 @@ export function Header(){
                 <input className="js-search-input" placeholder="Search for products, brands, or ..." />
               </div>
               <div className="right-sub-icon">
-                <a href="/Signup">
+                <NavLink to="/Login">
                   <span>
                   <img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="login icon" />
                 </span>
-                </a>
-                <a href="wishlist.html">
+                </NavLink>
+                <NavLink to="/wishlist">
                   <span className="favContainer js-love">
                     <img src="images/icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="wishlist" />
                     <div className="quantity js-fav">0</div>
                   </span>
-                </a>
-                <a href="checkout.html">
+                </NavLink>
+                <NavLink to="/checkout">
                   <span className="quantityContainer">
                     <img src="images/icons/local_mall_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="localMall" />
                     <div className="quantity js-bag">0</div>
                   </span>
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -281,13 +282,13 @@ export function Header(){
       <div className="intervalContainer">
           <div className="interval-sub-container">
             <div className="firstInterval js-firstInterval">
-              <a>FAST SHIPPING</a>
-              <a>FAST DELIVERY</a>
-              <a>FREE RETURN</a>
+              <NavLink>FAST SHIPPING</NavLink>
+              <NavLink>FAST DELIVERY</NavLink>
+              <NavLink>FREE RETURN</NavLink>
             </div>
 
             <div className="secondInterval js-secondInterval">
-              <a>REFRESH, REVIVE, RECIRCULATE: RE-ZAY &copy;</a>
+              <NavLink>REFRESH, REVIVE, RECIRCULATE: RE-ZAY &copy;</NavLink>
             </div>
           </div>
 
@@ -319,46 +320,46 @@ export function Header(){
                 <p>Gucci</p>
               </div>
               <div className="subHoverImages">
-                <a href="#">
+                <NavLink to="/">
                   <div className="subHoverImages-div">
                     <img src="images/brandsHover/paul-cuoco-CO2vOhPqlrM-unsplash.webp" alt="subhoverImage" loading="lazy" />
                   </div>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/">
                   <div className="subHoverImages-div">
                     <img src="images/brandsHover/jonas-b-AVSxYIcBxoM-unsplash.webp" alt="subhoverImage" loading="lazy" />
                   </div>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/">
                   <div className="subHoverImages-div">
                     <img src="images/brandsHover/cornelia-ng-zZLhoEwGCeM-unsplash.webp" alt="subhoverImage" loading="lazy" />
                   </div>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/">
                     <div className="subHoverImages-div">
                       <img src="images/brandsHover/mostafa-mahmoudi-J4DnKxz_3sA-unsplash.webp" alt="subhoverImage" loading="lazy" />
                     </div>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/">
                     <div className="subHoverImages-div">
                       <img src="images/brandsHover/john-torcasio-TJrkkhdB39E-unsplash.webp" alt="subhoverImage" loading="lazy" />
                     </div>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/">
                     <div className="subHoverImages-div">
                       <img src="images/brandsHover/arno-senoner-KKZhQk3j0yA-unsplash.webp" alt="subhoverImage" loading="lazy" />
                     </div>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/">
                     <div className="subHoverImages-div">
                       <img src="images/brandsHover/tom-radetzki-trdk1R0F3tg-unsplash.webp" alt="subhoverImage" loading="lazy" />
                     </div>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/">
                     <div className="subHoverImages-div">
                       <img src="images/brandsHover/paul-lichtblau-updW-QUccFE-unsplash.webp" alt="subhoverImage" loading="lazy" />
                     </div>
-                </a>
+                </NavLink>
               </div>
           </div>
       </div>

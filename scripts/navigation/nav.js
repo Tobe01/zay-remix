@@ -17,13 +17,13 @@ export function Navigation(){
 
                         <div class="mobile-right">
                           <a href="/Signup"><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></a>
-                          <a href="wishlist.html">
+                          <a href="/wishlist">
                             <span class="favContainer js-love">
                             <img src="images/icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
                             <div class="quantity js-fav">0</div>
                             </span>
                           </a>
-                          <a href="checkout.html">
+                          <a href="/checkout">
                             <span class="quantityContainer">
                             <img src="images/icons/local_mall_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
                             <div class="quantity js-bag">0</div>
@@ -49,7 +49,7 @@ export function Navigation(){
                         <div class="hamburgerItems js-hamburgerItems">
 
                             <div class="closeContainer">
-                              <a href="index.html">
+                              <a href="/">
                                <img src="images/logo/zayra-logo-1.webp" alt="zayraLogo">
                               </a>
                                
@@ -59,7 +59,7 @@ export function Navigation(){
                             </div>
 
                             <div class="directoriesContainer">
-                              <a href="index.html">
+                              <a href="/">
                                 <div>
                                 <img src="images/icons/home_app_logo_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="homeIcon">
                                 <p>Home</p>
@@ -194,7 +194,7 @@ export function Navigation(){
             
             <div class="middle-nav js-navigation">
               <div class="left js-left-items">
-                  <a href="index.html"><div>ZAYRA</div></a>
+                  <a href="/"><div>ZAYRA</div></a>
                   <a href="shop.html"><p>WOMEN</p></a>
                   <a href="shop.html"><p>MEN</p></a>
                   <a href="shop.html"><p>KIDS</p></a>
@@ -214,13 +214,13 @@ export function Navigation(){
                       <a href="/Signup">
                       <span><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="login icon"></span>
                       </a>
-                      <a href="wishlist.html">
+                      <a href="/wishlist">
                         <span class="favContainer js-love">
                           <img src="images/icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="wishlist">
                           <div class="quantity js-fav">0</div>
                         </span>
                       </a>
-                      <a href="checkout.html">
+                      <a href="/checkout">
                         <span class="quantityContainer">
                           <img src="images/icons/local_mall_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
                           <div class="quantity js-bag">0</div>
