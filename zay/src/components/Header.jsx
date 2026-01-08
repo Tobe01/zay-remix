@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router';
+import { NavLink } from 'react-router-dom';
 import './Header.css';
 import './Header/interval.css';
 import './Header/sub-nav.css';
@@ -25,7 +25,7 @@ export function Header(){
               </div>
 
               <div className="mobile-right">
-                <NavLink to="/Login"><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="personIcon" /></NavLink>
+                <NavLink to="/login"><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="personIcon" /></NavLink>
                 <NavLink to="/wishlist">
                   <span className="favContainer js-love">
                     <img src="images/icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="favIcon" />
@@ -213,7 +213,7 @@ export function Header(){
                 <input className="js-search-input" placeholder="Search for products, brands, or ..." />
               </div>
               <div className="right-sub-icon">
-                <NavLink to="/Login">
+                <NavLink to="/login">
                   <span>
                   <img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="login icon" />
                 </span>

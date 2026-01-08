@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router'
+import { NavLink } from 'react-router-dom'
 import { SignupHeader  } from "../../components/SignupHeader";
 import './Login.css';
 import './Signup.css';
@@ -37,12 +37,12 @@ export function Login(){
                 <input type="checkbox" />
                 <label>Remember me </label>
               </div>
-              <NavLink to="/forgotpassword.html"><span className="span">Forgot password?</span></NavLink>
+              <NavLink to="/forgot-password"><span className="span">Forgot password?</span></NavLink>
             </div>
 
             <button className="button-submit">Sign In</button>
 
-            <NavLink to="signup.html">
+            <NavLink to="/Signup">
               <p className="p">Don't have an account? <span className="span">Sign Up</span></p>
             </NavLink>
 
