@@ -50,7 +50,7 @@ export function SignUp(){
               <button className="button-submit">Sign Up</button>
               
               <p className="p">Have an account? 
-                <a href="login.html"><span className="span">Login Here!</span></a>
+                <a href="/Signup"><span className="span">Login Here!</span></a>
               </p>
 
               <p className="p line">Or With</p>

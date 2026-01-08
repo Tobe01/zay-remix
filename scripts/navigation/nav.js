@@ -16,7 +16,7 @@ export function Navigation(){
                         </div>
 
                         <div class="mobile-right">
-                          <a href="login.html"><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></a>
+                          <a href="/Signup"><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></a>
                           <a href="wishlist.html">
                             <span class="favContainer js-love">
                             <img src="images/icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
@@ -211,7 +211,7 @@ export function Navigation(){
                     <input class="js-search-input" placeholder="Search for products, brands, or ...">
                   </div>
                   <div class="right-sub-icon">
-                      <a href="login.html">
+                      <a href="/Signup">
                       <span><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="login icon"></span>
                       </a>
                       <a href="wishlist.html">
