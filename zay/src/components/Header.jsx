@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import './Header.css';
 import './Header/interval.css';
 import './Header/sub-nav.css';
