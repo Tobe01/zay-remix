@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { Helmet } from 'react-helmet-async';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { Loader } from '../loaders/Loaders';
@@ -21,9 +20,7 @@ export function HomePage(){
 
   return(
     <>
-      <Helmet>
-        <title>Home</title>
-      </Helmet>
+      <title>Home</title>
 
       <Header />
       <div className="main-container">

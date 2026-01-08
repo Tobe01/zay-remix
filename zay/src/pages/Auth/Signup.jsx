@@ -1,12 +1,9 @@
 import {  SignupHeader } from '../../components/SignupHeader';
-import { Helmet } from 'react-helmet-async'
 
 export function SignUp(){
   return(
     <>
-      <Helmet>
-        <title>Signup</title>
-      </Helmet>
+      <title>Signup</title>
       <SignupHeader />
 
       <main className="main"> 
