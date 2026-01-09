@@ -1,0 +1,30 @@
+  @media(max-width: 1094px){
+  .bottom-sub{
+  padding: 0 16px 0 20px;
+  transition: ease;
+  }
+
+  .middle-nav{
+  justify-content: initial;
+  }
+  };
+
+
+  /* Mobile phones */
+  @media(max-width: 480px){
+  /* Nav */
+
+  }
+
+  /* Tablet View */
+  @media(min-width: 481px) and (max-width: 768px){
+  /* Nav */
+
+
+  }
+
+  /* small laptop (tabs)*/
+  @media(min-width: 769px) and (max-width: 1024px){
+  /* Nav */
+
+  }

@@ -18,7 +18,7 @@ export function renderThree(){
   if(threeContainer){
     threeItems.forEach((items)=>{
     threeContainer.innerHTML += `<div class="women js-cards">
-            <a href="shop.html">
+            <a href="/shop">
                <img src="${items.image}" alt="women" loading="lazy">
               <div class="threeCardsLabel">
                   <p>${items.title}</p>
@@ -76,7 +76,7 @@ export function renderThree(){
         const card2 = controlThree[2];
 
         if(index === 0){
-          window.location.href = 'shop.html';
+          window.location.href = '/shop';
           womens.style.visibility = "visible";
           womens.style.display = "grid";
           womensFashion.style.color = "white";

@@ -66,35 +66,35 @@ export function Navigation(){
                                </div>
                               </a>
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                <div>
                                 <img src="images/icons/person_heart_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="womenIcon">
                                 <p>Women</p>
                                </div>
                               </a>
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                <div>
                                 <img src="images/icons/person_shield_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="menIcon">
                                 <p>Men</p>
                                </div>
                               </a>
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                 <div>
                                 <img src="images/icons/face_left_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="kidsIcon">
                                 <p>Kids</p>
                                </div>
                               </a>
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                <div>
                                 <img src="images/icons/sports_football_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="SportsIcon">
                                 <p>Sport</p>
                                </div>
                               </a>
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                <div>
                                 <img src="images/icons/spa_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="beautyIcon">
                                 <p>Beauty</p>
@@ -105,56 +105,56 @@ export function Navigation(){
 
                             <div class="NewItemsContainer">
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                 <div>
                                 <img src="images/icons/notifications_unread_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="newIcon">
                                 <p>NEW IN</p>
                                </div>
                               </a>
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                 <div>
                                 <img src="images/icons/laundry_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="laudryIcon">
                                 <p>CLOTHING</p>
                                </div>
                               </a>
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                <div>
                                 <img src="images/icons/footprint_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="shoesIcon">
                                 <p>SHOES</p>
                                </div>
                               </a>
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                 <div>
                                 <img src="images/icons/aod_watch_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="watchIcon">
                                 <p>ACCESSORIES</p>
                                </div>
                               </a>
 
-                              <a href="shop.html">
+                              <a href="/shop">
                                <div>
                                 <img src="images/icons/sports_football_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="footbalIcon">
                                 <p>SPORTS</p>
                                </div>
                               </a>
 
-                             <a href="shop.html">
+                             <a href="/shop">
                                <div>
                                 <img src="images/icons/brand_family_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="brandsIcon">
                                 <p>BRANDS</p>
                                </div>
                              </a>
 
-                             <a href="shop.html">
+                             <a href="/shop">
                                <div>
                                 <img src="images/icons/checkroom_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="checkroomIcon">
                                 <p>DESIGNER</p>
                                </div>
                              </a>
 
-                             <a href="shop.html">  
+                             <a href="/shop">  
                               <div>
                                 <img src="images/icons/price_check_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="priceIcon">
                                 <p>SALE</p>
@@ -195,12 +195,12 @@ export function Navigation(){
             <div class="middle-nav js-navigation">
               <div class="left js-left-items">
                   <a href="/"><div>ZAYRA</div></a>
-                  <a href="shop.html"><p>WOMEN</p></a>
-                  <a href="shop.html"><p>MEN</p></a>
-                  <a href="shop.html"><p>KIDS</p></a>
-                  <a href="shop.html"><p>SPORT</p></a>
-                  <a href="shop.html"><p>BEAUTY</p></a>
-                  <a href="shop.html"><p>HOME</p></a>
+                  <a href="/shop"><p>WOMEN</p></a>
+                  <a href="/shop"><p>MEN</p></a>
+                  <a href="/shop"><p>KIDS</p></a>
+                  <a href="/shop"><p>SPORT</p></a>
+                  <a href="/shop"><p>BEAUTY</p></a>
+                  <a href="/shop"><p>HOME</p></a>
               </div>
               <div class="right">
                 <div class="right-sub">

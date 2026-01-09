@@ -15,7 +15,7 @@ bagQuantity;
 loveButton;
 
 
-if (window.location.pathname.includes('shop.html')) {
+if (window.location.pathname.includes('/shop')) {
   renderShopItems();
 };
 
