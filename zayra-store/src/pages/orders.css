@@ -94,6 +94,7 @@
   /* Form */
 
   .checkoutMain{
+  background-color: rgb(245, 239, 239);
   display: flex;
   justify-content: center;
   padding: 46px;

@@ -26,7 +26,7 @@ export function Header(){
 
                   <div className="mobile-right">
                     <Link to="/login"><img src="images/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="personIcon" /></Link>
-                    <Link to="/wishlist">
+                    <Link to="/wish-list">
                       <span className="favContainer">
                         <img src="images/icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="favIcon" />
                         <div className="quantity">0</div>
@@ -220,7 +220,7 @@ export function Header(){
                     </Link>
                     <Link to="/wish-list">
                       <span className="favContainer">
-                        <img src="images/icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="wishlist" />
+                        <img src="images/icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="wish-list" />
                         <div className="quantity">0</div>
                       </span>
                     </Link>
