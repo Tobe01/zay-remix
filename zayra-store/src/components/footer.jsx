@@ -1,14 +1,17 @@
+import { Link } from 'react-router-dom';
 import './footer.css';
+import '../media-queries/header.css';
+import '../media-queries/main.css';
 
 export function Footer(){
   return(
     <footer>
-      <div class="footerTop">
+      <div className="footerTop">
 
-        <div class="footer-container">
-          <div class="footer-main">
-              <div class="zayra-container">
-                <div class="zayra-sub">
+        <div className="footer-container">
+          <div className="footer-main">
+              <div className="zayra-container">
+                <div className="zayra-sub">
                   <p>ZAYRA</p>
                   <ul>
                     <li><a>About Us</a></li>
@@ -26,7 +29,7 @@ export function Footer(){
                   </ul>
                 </div>
 
-                <div class="zayra-sub-mini">
+                <div className="zayra-sub-mini">
                   <ul>
                     <li><a>Coupons</a></li>
                     <li><a>People & Planet Positive</a></li>
@@ -36,7 +39,7 @@ export function Footer(){
                 </div>
               </div>
 
-              <div class="helpSupport">
+              <div className="helpSupport">
                 <p>HELP & SUPPORT</p>
                 <ul>
                   <li><a>FAQs & Contact</a></li>
@@ -51,7 +54,7 @@ export function Footer(){
                 </ul>
               </div>
 
-              <div class="followUs">
+              <div className="followUs">
                 <p>FOLLOW US</p>
                 <ul>
                   <li><a><span></span>Instagram</a></li>
@@ -63,41 +66,41 @@ export function Footer(){
               </div>
           </div>
 
-          <div class="newsletter-container">
-            <div class="newsleter-sub">         
-              <div class="stayInTouch">
+          <div className="newsletter-container">
+            <div className="newsleter-sub">         
+              <div className="stayInTouch">
                 <h3>STAY IN TOUCH</h3>
                 <p>Sign up to ZAYRA News for your <span>₦5k voucher</span></p>
               </div>
-              <div class="buttonContainer">
-                <select class="type-btn">
+              <div className="buttonContainer">
+                <select className="type-btn">
                   <option>Women</option>
                   <option>Men</option>
                 </select>
                 <input type="search" placeholder="Enter your email address..."/>
-                <button class="submit-btn">SUBMIT</button>
+                <button className="submit-btn">SUBMIT</button>
               </div>
 
-              <div class="menWomenContainer">
-                <div class="menWomen-sub js-menWomen-sub">
-                  <div class="women-sub">Women</div>
-                  <div class="men-sub">Men</div>
+              <div className="menWomenContainer">
+                <div className="menWomen-sub js-menWomen-sub">
+                  <div className="women-sub">Women</div>
+                  <div className="men-sub">Men</div>
                 </div>
               
-                <div class="voucher-container">
-                <p class="voucher"><span>* ₦5k</span> voucher for new sign ups only.</p>
+                <div className="voucher-container">
+                <p className="voucher"><span>* ₦5k</span> voucher for new sign ups only.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="footerSearches-container">
-          <div class="topSearches">
-            <p>OUR TOP SEARCHES</p>
+        <div className="footerSearches-container">
+          <div className="topSearches">
+            <h3>OUR TOP SEARCHES</h3>
           </div>
 
-          <div class="topSearches-container">
+          <div className="topSearches-container">
             <div>
               <p>Levi's</p>
               <p>adidas</p>
@@ -158,23 +161,23 @@ export function Footer(){
 
       </div>
 
-      <div class="footerBottomMain">
-        <div class="footerBottom">
+      <div className="footerBottomMain">
+        <div className="footerBottom">
 
-          <div class="brandSignature">
-            <div class="brandLogo">
+          <div className="brandSignature">
+            <div className="brandLogo">
               <img src="images/logo/zayra-logo-2.webp" alt="brandLogo" />
             </div>
             
-            <div class="brandOwnership">
+            <div className="brandOwnership">
             <h2>Zayra&trade;</h2>
             <p>Developed with <span>&hearts;</span> by Tobe</p>
             </div>
           </div>
 
-          <div class="brandButtons">
-              <a href="#" class="playstore-button">
-                <span class="icon">
+          <div className="brandButtons">
+              <Link to="#" className="playstore-button">
+                <span className="icon">
                   <svg
                     fill="currentcolor"
                     viewBox="-52.01 0 560.035 560.035"
@@ -194,21 +197,21 @@ export function Footer(){
                     </g>
                   </svg>
                 </span>
-                <span class="texts">
-                  <span class="text-1">Download form</span>
-                  <span class="text-2">App store</span>
+                <span className="texts">
+                  <span className="text-1">Download form</span>
+                  <span className="text-2">App store</span>
                 </span>
-              </a>
+              </Link>
 
-              <a class="playstore-button" href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
+              <Link className="playstore-button" to="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="icon" viewBox="0 0 512 512">
                     <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
                   </svg>
-                  <span class="texts">
-                  <span class="text-1">GET IT ON</span>
-                  <span class="text-2">Google Play</span>
+                  <span className="texts">
+                  <span className="text-1">GET IT ON</span>
+                  <span className="text-2">Google Play</span>
                   </span>
-              </a>
+              </Link>
           </div>
         </div>
       </div>

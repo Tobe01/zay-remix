@@ -13,7 +13,7 @@ export function AuthHeader(){
           </Link>
           <div class="logingNavIcon">
             <Link to="/">
-              <img src="images/logo/White Black Minimalist Typography Studio Name Logo.webp" alt="ZaraLogo" />
+              <img src="images/logo/white-black.webp" alt="ZaraLogo" />
             </Link>
           </div>
 

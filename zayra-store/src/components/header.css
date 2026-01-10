@@ -48,27 +48,17 @@
   color: rgb(224, 221, 221);
   }
 
-  .left a{
-  text-decoration: none;
-  color: white;
+  .left img{
+  cursor: pointer;
+  margin-left: 5px;
   }
 
-  .left div{
+  .left a{
   cursor: pointer;
-  font-size: 26px;
-  font-weight: bold;
-  white-space: nowrap;
   margin: 0;
-  padding: 0;
-  margin-left: 10px;
-  width: 150px;
-  color: white;
-  }
-
-  .left a{
-  cursor: pointer;
-  padding: 0 25px;
+  padding: 10px 25px;
   font-size: 16px;
+  color: white;
   font-weight: bold;
   border-bottom: 0px none rgb(0, 0, 0);
   text-decoration: none;
@@ -208,7 +198,7 @@
   .bottom-sub div{
   font-size: 13.5px;
   cursor: pointer;
-  padding: 0 17px;
+  padding: 12px 18px;
   white-space: nowrap;
   }
 
@@ -218,6 +208,8 @@
 
   .bottom-sub div:nth-child(9){
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
   font-size: 14px;
   padding: 0 15px;

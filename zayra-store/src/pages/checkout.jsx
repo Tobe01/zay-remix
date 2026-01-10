@@ -13,15 +13,15 @@ export function Checkout(){
 
       <Header />
       <section className="checkout">
-          <div className="checkoutParent">
-            <h1>Shopping Cart (5)</h1>
-          </div>
-
           <div className="deliveredBy">
             <div className="mainCheckout-container">
-                {/* Container for array of added items */}
+                {/* Cart Container */}
                 <div className="Array-container">
+                  <div className="checkoutParent">
+                    <p>Shopping Cart (5)</p>
+                  </div>
 
+                {/* Container for array of added items */}
                   <div className="checkoutLeft">
                       <div className="checkoutContents">
                         <div className="checkoutTop">

@@ -196,8 +196,8 @@ export function Header(){
                 
           <div className="middle-nav">
               <div className="left">
-                  <Link to="/"><div>ZAYRA</div></Link>
-                  <Link to="/shop"><p>WOMEN</p></Link>
+                  <Link to="/"><img src="images/logo/plain.webp" width="50" /></Link>
+                  <Link to="/shop"><d>WOMEN</d></Link>
                   <Link to="/shop"><p>MEN</p></Link>
                   <Link to="/shop"><p>KIDS</p></Link>
                   <Link to="/shop"><p>SPORT</p></Link>

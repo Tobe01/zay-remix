@@ -39,12 +39,13 @@
 
   .checkout{
   margin: auto;
-  margin-top: 150px;
+  /* margin-top: 150px; */
+  padding: 200px 0 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   background-color: rgb(245, 239, 239);
   }
 
@@ -53,11 +54,18 @@
   }
 
   .checkoutParent{
-  padding-top: 20px;
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  width: fit-content;
   }
 
-   .checkoutParent h1{
-  margin: 10px 0;
+   .checkoutParent p{
+  color: grey;
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
   }
 
 
@@ -81,7 +89,7 @@
   background-color: white;
   padding: 10px 20px 10px 10px;
   border-radius: 5px;
-  max-width: 670px;
+  max-width: 600px;
   border-radius: 5px;
   margin-bottom: 10px;
   }
@@ -92,11 +100,11 @@
   }
 
   .checkoutImage{
-  width: 95px;
+  width: 100px;
   }
 
   .checkoutImage img{
-  min-width: 95px;
+  min-width: 100px;
   }
 
   .checkoutItems{
@@ -108,12 +116,13 @@
 
   .checkoutItems h1{
     font-weight: 300;
+    white-space: wrap;
   }
 
   .checkoutItems p:first-of-type{
   color: green;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0;
   }
@@ -128,7 +137,7 @@
    .CheckoutItemQuan{
   flex-direction: column;
   display: flex;
-  margin-top: 18px;
+  margin-top: 5px;
   }
 
   .CheckoutcontrolQuan{
@@ -254,6 +263,11 @@
   margin-bottom: 37px;
   }
 
+  .orderTotal p:nth-child(2){
+    color: green;
+    font-weight: bold;
+  }
+
   .orderDiscount{
   display: flex;
   flex-direction: column;
@@ -328,6 +342,7 @@
   .promoPromo h3{
   font-weight: 500;
   margin: 0;
+  margin-bottom: 5px;
   }
 
   .promoPromo input{
