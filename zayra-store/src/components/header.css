@@ -40,45 +40,34 @@
   .left{
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  vertical-align: top;
-  height: 100%;
   flex: 1;
-  max-width: 850px;
-  color: rgb(224, 221, 221);
+  height: 100%;
+  max-width: 800px;
+  margin-top: 3px;
   }
 
   .left img{
   cursor: pointer;
-  margin-left: 5px;
   }
 
-  .left a{
-  cursor: pointer;
-  margin: 0;
-  padding: 10px 25px;
-  font-size: 16px;
-  color: white;
-  font-weight: bold;
-  border-bottom: 0px none rgb(0, 0, 0);
-  text-decoration: none;
+  .left div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
   }
 
-  .left a:hover{
+  .left div div{
+    padding: 8px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .left div div:hover{
   background-color: grey;
-  }
-
-  .left a:first-child{
-  border-bottom: none;
-  }
-
-  .left a:first-child:hover{
-  cursor: pointer;
-  background-color: transparent;
-  }
-
-  .left a:first-child:active{
-  border: none;
   }
 
   .right{
@@ -193,13 +182,18 @@
   flex: 1;
   max-width: 780px;
   justify-content: center;
+  margin-top: 8px;
   }
 
   .bottom-sub div{
   font-size: 13.5px;
   cursor: pointer;
-  padding: 12px 18px;
+  padding: 8px 18px;
   white-space: nowrap;
+  }
+
+  .bottom-sub div:first-child{
+  padding: 8px 7px;
   }
 
   .bottom-sub div:hover{

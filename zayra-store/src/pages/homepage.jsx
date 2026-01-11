@@ -9,8 +9,8 @@ export function HomePage(){
       <title>Home</title>
       <Header />
       <main>
-          <div class="main-container">
-            <div className="main-container">
+          <div class="home-container">
+            <div>
 
                 <div className="first-banner-container">
                   <img src="images/banners/Grey and Brown Modern Fashion Shop Etsy Shop Cover.gif" alt="banner" loading="lazy" />

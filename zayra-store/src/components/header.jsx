@@ -196,13 +196,15 @@ export function Header(){
                 
           <div className="middle-nav">
               <div className="left">
-                  <Link to="/"><img src="images/logo/plain.webp" width="50" /></Link>
-                  <Link to="/shop"><d>WOMEN</d></Link>
-                  <Link to="/shop"><p>MEN</p></Link>
-                  <Link to="/shop"><p>KIDS</p></Link>
-                  <Link to="/shop"><p>SPORT</p></Link>
-                  <Link to="/shop"><p>BEAUTY</p></Link>
-                  <Link to="/shop"><p>HOME</p></Link>
+                  <Link to="/"><img src="images/logo/zay.webp" width="50" /></Link>
+                  <div>
+                    <Link to="/shop"><div>WOMEN</div></Link>
+                    <Link to="/shop"><div>MEN</div></Link>
+                    <Link to="/shop"><div>KIDS</div></Link>
+                    <Link to="/shop"><div>SPORT</div></Link>
+                    <Link to="/shop"><div>BEAUTY</div></Link>
+                    <Link to="/shop"><div>HOME</div></Link>
+                  </div>
               </div>
               <div className="right">
                 <div className="right-sub">

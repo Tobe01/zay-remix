@@ -1,11 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
 import { HomePage } from './pages/homepage';
 import { Checkout } from './pages/checkout';
+import { ForgotPassword } from './auth/forgot-password';
 import { Shop } from './pages/shop';
+import { ShopModal } from './pages/shop-modal';
 import { Login } from './auth/login';
 import { Signup } from './auth/signup';
 import { WishList } from '../src/pages/wish-list';
 import { Orders } from '../src/pages/orders';
+
 import './App.css'
 
 function App() {
@@ -20,10 +23,14 @@ function App() {
       <Route path="/shop" element={<Shop />} />
       <Route path="/wish-list" element={<WishList/>} />
       <Route path="/orders" element={<Orders/>} />
+
+      {/* Shop Modal */}
+      <Route path="/shop-modal" element={<ShopModal/>} />
       
       {/* Authentication flow */}
       <Route path="/login" element={<Login/>} />
       <Route path="/signup" element={<Signup/>} />
+      <Route path="/forgot-Password" element={<ForgotPassword/>} />
     </Routes>
   )
 }
