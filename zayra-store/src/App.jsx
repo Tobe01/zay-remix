@@ -8,6 +8,7 @@ import { Login } from './auth/login';
 import { Signup } from './auth/signup';
 import { WishList } from '../src/pages/wish-list';
 import { Orders } from '../src/pages/orders';
+import { ErrorPage } from './pages/error-pages/error-page';
 
 import './App.css'
 
@@ -31,6 +32,9 @@ function App() {
       <Route path="/login" element={<Login/>} />
       <Route path="/signup" element={<Signup/>} />
       <Route path="/forgot-Password" element={<ForgotPassword/>} />
+
+      {/* Error Pages */}
+      <Route path="*" element={<ErrorPage/>}/>
     </Routes>
   )
 }

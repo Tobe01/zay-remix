@@ -16,8 +16,8 @@ export function HomePage(){
                   <img src="images/banners/Grey and Brown Modern Fashion Shop Etsy Shop Cover.gif" alt="banner" loading="lazy" />
                 </div>
 
-                <div className="threeCards-container js-threeCards">
-                    <div className="women js-cards">
+                <div className="threeCards-container">
+                    <div className="women">
                         <Link to="/shop">
                           <img src="images/women/2927.webp" alt="women" loading="lazy" />
                           <div className="threeCardsLabel">
@@ -26,7 +26,7 @@ export function HomePage(){
                         </Link>
                     </div>
 
-                    <div className="women js-cards">
+                    <div className="women">
                         <Link to="/shop">
                           <img src="images/kids/2149328403.webp" alt="women" loading="lazy" />
                           <div className="threeCardsLabel">
@@ -35,7 +35,7 @@ export function HomePage(){
                         </Link>
                     </div>
 
-                    <div className="women js-cards">
+                    <div className="women">
                         <Link to="/shop">
                           <img src="images/men/2927.webp" alt="women" loading="lazy" />
                           <div className="threeCardsLabel">
@@ -50,7 +50,7 @@ export function HomePage(){
                 </div>
 
                 <div className="fourSquare">
-                  <div className="fourCards-container js-fourContainer">
+                  <div className="fourCards-container">
                       <div className="fourCards-first fade-in-up">
                         <Link to="/shop">
                           <div className="cards-img-container">
@@ -319,77 +319,77 @@ export function HomePage(){
                     <p>Shop brands</p>
                   </div>
 
-                  <div className="brandsCards js-brands js-brandsContainer">
+                  <div className="brandsCards">
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Fashion Brand Art Design Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/stones-and-bones-pdHQR3lA-mg-unsplash.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Fashion Brand Art Design Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/stones-and-bones-pdHQR3lA-mg-unsplash.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Beige Minimalist brand fashion logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/101931.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Beige Minimalist brand fashion logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/101931.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Black & White Minimalist Business Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/30792.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Black & White Minimalist Business Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/30792.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Black & White Modern Professional Fashion Clothing Brand Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/105526.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Black & White Modern Professional Fashion Clothing Brand Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/105526.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Black minimalis brand fashion logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/1528.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Black minimalis brand fashion logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/1528.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Black Minimalist Fashion Brand Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148310034.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Black Minimalist Fashion Brand Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/2148310034.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Black White Minimal Modern Simple Bold Business Mag Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148733312.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Black White Minimal Modern Simple Bold Business Mag Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/2148733312.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Black White Minimalist Professional Initial Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148665680.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Black White Minimalist Professional Initial Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/2148665680.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Black White Minimalist Simple Monogram Typography Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148316178.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Black White Minimalist Simple Monogram Typography Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/2148316178.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Initial Brand Fashion Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/27926.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Initial Brand Fashion Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/27926.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Cream Black Typography Loop Brand Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148336544.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Cream Black Typography Loop Brand Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/2148336544.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                     <Link to="#">
-                        <div className="brandsCards-container js-brandsCards">
-                          <img className="brandsImg1 js-firstImg" src="images/brands/Minimalist typography brand Fashion Logo-Photoroom.png" alt="brand" loading="lazy" />
-                          <img className="brandsImg2 js-secndImg" src="images/brandsItems/2148098447.webp" alt="brand" loading="lazy" />
+                        <div className="brandsCards-container">
+                          <img className="brandsImg1" src="images/brands/Minimalist typography brand Fashion Logo-Photoroom.png" alt="brand" loading="lazy" />
+                          <img className="brandsImg2" src="images/brandsItems/2148098447.webp" alt="brand" loading="lazy" />
                         </div>
                     </Link>   
                   </div>
