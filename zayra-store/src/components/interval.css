@@ -19,8 +19,8 @@ color: rgb(144, 144, 247);
 
 .firstInterval{
  position: relative;
- /* visibility: hidden;
- display: hidden; */
+ visibility: hidden;
+ display: hidden;
 }
 
 .secondInterval{

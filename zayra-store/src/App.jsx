@@ -8,7 +8,6 @@ import { Signup } from './auth/signup';
 import { WishList } from '../src/pages/wish-list';
 import { Orders } from '../src/pages/orders';
 import { ErrorPage } from './pages/error-pages/error-page';
-import { ShopModal } from './pages/shop-modal';
 
 import './App.css'
 
@@ -26,7 +25,6 @@ function App() {
       <Route path="/orders" element={<Orders/>} />
 
       {/* Shop Modal */}
-      <Route path="/shop-modal" element={<ShopModal/>} />
       
       {/* Authentication flow */}
       <Route path="/login" element={<Login/>} />
@@ -35,6 +33,9 @@ function App() {
 
       {/* Error Pages */}
       <Route path="*" element={<ErrorPage/>}/>
+
+      {/* Empty Array */}
+
     </Routes>
   )
 }

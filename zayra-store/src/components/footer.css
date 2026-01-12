@@ -137,10 +137,15 @@
   .submit-btn{
   border: none;
   height: 100%;
-  color: black;
+  color: white;
+  background-color: grey;
   margin: 0;
   margin-left: 5px;
   border-radius: 3px;
+  }
+
+  .submit-btn:hover{
+   background-color: rgb(61, 61, 61);
   }
 
   .stayInTouch span{
