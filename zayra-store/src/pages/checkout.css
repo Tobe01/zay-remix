@@ -127,20 +127,21 @@
   margin: 0;
   }
 
-  .CheckoutItemQuan p:first-of-type{
+  .ItemQuan p:first-of-type{
   color: black;
   font-size: 18px;
   margin: 0;
   margin-bottom: 5px;
   }
 
-   .CheckoutItemQuan{
+   .ItemQuan{
   flex-direction: column;
   display: flex;
   margin-top: 5px;
+  background-color: red;
   }
 
-  .CheckoutcontrolQuan{
+  .controlQuan{
   display: flex;
   align-items: center;
   height: 30px;
@@ -149,28 +150,28 @@
   border-radius: 5px;
   }
 
-  .CheckoutcontrolQuan button{
+  .controlQuan button{
   border: none;
   height: 100%;
   cursor: pointer;
   background-color: white;
   }
 
-  .CheckoutcontrolQuan button:hover{
+  .controlQuan button:hover{
   background-color: rgb(194, 186, 186);
   }
 
-  .CheckoutcontrolQuan button:nth-child(3){
+  .controlQuan button:nth-child(3){
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
   }
 
-  .CheckoutcontrolQuan button:first-child{
+  .controlQuan button:first-child{
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
   }
 
-  .CheckoutcontrolQuan input{
+  .controlQuan input{
   border: none;
   width: 30px;
   height: 93%;
@@ -179,7 +180,7 @@
   font-size: 16px;
   }
 
-  .CheckoutcontrolQuan input:focus{
+  .controlQuan input:focus{
   border: none;
   outline: none;
   }

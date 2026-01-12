@@ -2,9 +2,10 @@ import { Header } from '../components/header';
 import { Link } from 'react-router-dom';
 import './items.css';
 import './checkout.css';
-import './homepage.css';
-import '../media-queries/header.css';
-import '../media-queries/main.css';
+// import './homepage.css';
+// import './shop.css';
+// import '../media-queries/header.css';
+// import '../media-queries/main.css';
 
 export function Checkout(){
   return(
@@ -32,12 +33,12 @@ export function Checkout(){
                             <h1>Slim Stacked Flare Embroidered Strip Tricot Track Pants</h1>
                             <p>$22.50</p>
 
-                            <div className="CheckoutItemQuan">
+                            <div className="ItemQuan">
                               <p>Quantity: 2</p>
-                              <div className="CheckoutcontrolQuan">
-                                <button><img src="images/icons/check_indeterminate_small_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="minus" /></button>
-                                <input inputmode="numeric" />
-                                <button><img src="images/icons/add_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="add" /></button>
+                              <div className="controlQuan">
+                                <button><img src="images/icons/check_indeterminate_small_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="minus"/></button>
+                                <input inputmode="numeric"/>
+                                <button><img src="images/icons/add_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="add"/></button>
                               </div>
                             </div>
 
