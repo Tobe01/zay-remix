@@ -3,12 +3,12 @@ import { HomePage } from './pages/homepage';
 import { Checkout } from './pages/checkout';
 import { ForgotPassword } from './auth/forgot-password';
 import { Shop } from './pages/shop';
-import { ShopModal } from './pages/shop-modal';
 import { Login } from './auth/login';
 import { Signup } from './auth/signup';
 import { WishList } from '../src/pages/wish-list';
 import { Orders } from '../src/pages/orders';
 import { ErrorPage } from './pages/error-pages/error-page';
+import { ShopModal } from './pages/shop-modal';
 
 import './App.css'
 

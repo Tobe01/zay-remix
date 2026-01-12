@@ -1,0 +1,40 @@
+button{
+  border: 1px solid black;
+  color: white;
+  background-color: transparent;
+  padding: 5px 30px;
+  margin-top: 10px;
+}
+
+.errorContainer{
+  margin: auto;
+  margin-top: 85px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.errorContainer div{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.errorContainer div h1{
+  color: grey;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.errorContainer div p{
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}

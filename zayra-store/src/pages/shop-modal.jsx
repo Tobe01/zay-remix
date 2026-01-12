@@ -1,3 +1,4 @@
+import { Header } from '../components/header';
 import '../media-queries/header.css';
 import '../media-queries/main.css';
 import './shop.css';
@@ -5,6 +6,7 @@ import './shop.css';
 export function ShopModal(){
   return(
     <>
+     <Header/>
      <div className="viewItemContainer">
         {/* <!-- Items rendered in Shop.js --> */}
         <div className="viewSub">
@@ -13,11 +15,11 @@ export function ShopModal(){
             </div>
             <div className="viewCards">
                 <div className="imgContainer">
-                  <img src="images/shopItems/2149684322.webp" alt="item-images" loading="lazy" className="images"/>
+                  <img src="images/shopItems/2149684322.webp" alt="item-images" loading="lazy"/>
 
-                  <img src="images/shopItems/2149684359.webp" alt="item-images" loading="lazy" className="images"/>
+                  <img src="images/shopItems/2149684359.webp" alt="item-images" loading="lazy"/>
 
-                  <img src="images/shopItems/2149684357.webp" alt="item-images" loading="lazy" className="images"/>
+                  <img src="images/shopItems/2149684357.webp" alt="item-images" loading="lazy"/>
 
                   <div className="arrowDiv">
                     <button><img src="images/icons/keyboard_arrow_left_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="arrowLeft"/></button>
@@ -31,10 +33,10 @@ export function ShopModal(){
                     <div className="itemDetail">
                       <div>
                         <h1>Slim Stacked Flare Embroidered Strip Tricot Track Pants</h1>
-                        {/* <!-- From Uiverse.io by SalladShooter -->  */}
+                        {/* <!-- From Uiverse.io by SalladShooter --> */}
                           <div className="like-wrapper">
-                            <input className="check" type="checkbox" id="like-toggle" />
-                            <label className="container" for="like-toggle">
+                            <input className="check" type="checkbox" id="like-toggle"/>
+                            <label className="container" htmlFor="like-toggle">
                               <svg
                                 viewBox="0 0 512 512"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +60,7 @@ export function ShopModal(){
                           </div>
                       </div>
                       <div>
-                        <img src="${shop.ratings.star}" alt="rating"/>
+                        <img src="images/ratings/star_24dp_B89230_FILL1_wght700_GRAD0_opsz24.svg" alt="rating"/>
                         <p>51<span>259</span></p>
                       </div>
 
