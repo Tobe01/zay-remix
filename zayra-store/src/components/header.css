@@ -64,6 +64,7 @@
     font-size: 20px;
     cursor: pointer;
     margin: 0;
+    border-radius: 3px;
   }
 
   .left div div:hover{
@@ -190,6 +191,7 @@
   cursor: pointer;
   padding: 8px 18px;
   white-space: nowrap;
+  border-radius: 3px;
   }
 
   .bottom-sub div:first-child{
