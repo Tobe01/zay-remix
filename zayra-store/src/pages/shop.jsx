@@ -98,7 +98,7 @@ export function Shop(){
                       alt="rating"
                     />
                     <p>
-                      51<span>259</span>
+                      5.1<span>(259 reviews)</span>
                     </p>
                   </div>
                 </div>
@@ -135,22 +135,22 @@ export function Shop(){
                 </p>
               </div>
 
-              <div className="ItemQuan">
+              <div className="addQuantity">
                 <p>Quantity:</p>
-                <div className="controlQuan">
-                  <button>
+                <div className="addQuantitySub">
+                  <div>
                     <img
                       src="images/icons/check_indeterminate_small_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
                       alt="minus"
                     />
-                  </button>
+                  </div>
                   <input />
-                  <button>
+                  <div>
                     <img
                       src="images/icons/add_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
                       alt="add"
                     />
-                  </button>
+                  </div>
                 </div>
               </div>
 

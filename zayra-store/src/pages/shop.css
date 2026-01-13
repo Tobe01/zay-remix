@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  /* visibility: hidden; */
+  visibility: hidden;
   }
 
   .viewItemContainer p{
@@ -79,7 +79,7 @@
 
   .arrowDiv{
   position: absolute;
-  top: 80%;
+  top: 77%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -92,7 +92,7 @@
   border-radius: 50%;
   padding: 5px;
   cursor: pointer;
-  color: white;
+  background-color: white;
   }
 
   .arrowDiv button:hover{
@@ -211,7 +211,8 @@
   .icon {
   width: 1.5em;
   height: 1.5em;
-  fill: black;
+  /* fill: black; */
+  fill: rgb(214, 208, 208);
   transition: opacity 0.3s ease-in-out;
   }
 
@@ -253,11 +254,6 @@
   }
   }
 
-
-  .categoryContainer{
-
-  }
-
   .itemCategory{
   margin: 0;
   margin-top: 10px;
@@ -286,6 +282,11 @@
   color: green;
   }
 
+  h1 {
+  font-size: 2.0rem;
+  font-weight: 700;
+  }
+
   .itemPrice p, h1{
   margin: 0;
   }
@@ -306,57 +307,52 @@
   margin-bottom: 10px;
   }
 
-  .ItemQuan{
-  background-color: green;
-  margin-top: 25px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 15px;
+  .addQuantity{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    margin-top: 25px;
   }
 
-  .controlQuan{
-  background-color: blue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgb(126, 125, 125);
-  border-radius: 5px;
+  .addQuantitySub{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 2px;
   }
 
-  .controlQuan button{
-  border: none;
-  cursor: pointer;
-  background-color: white;
-  background-color: purple;
+  .addQuantitySub  div{
+    cursor: pointer;
+    padding: 3px 6px;
   }
 
-  .controlQuan button:hover{
-  background-color: rgb(194, 186, 186);
+  .addQuantitySub  div:first-child{
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
   }
 
-  .controlQuan button:nth-child(3){
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
+  .addQuantitySub  div:nth-child(3){
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
   }
 
-  .controlQuan button:first-child{
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+   .addQuantitySub  div:hover{
+    background-color: rgb(194, 186, 186);
   }
 
-  .controlQuan input{
-  border: none;
-  width: 30px;
-  height: 93%;
-  text-align: center;
-  font-weight: 600;
-  font-size: 16px;
+  .addQuantitySub input{
+    width: 30px;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
   }
 
-  .controlQuan input:focus{
-  border: none;
-  outline: none;
+  .addQuantitySub input:focus{
+    border: none;
+    outline: none;
   }
 
   .addItem{

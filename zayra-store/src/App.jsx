@@ -29,7 +29,7 @@ function App() {
       {/* Authentication flow */}
       <Route path="/login" element={<Login/>} />
       <Route path="/signup" element={<Signup/>} />
-      <Route path="/forgot-Password" element={<ForgotPassword/>}/>
+      <Route path="/forgot-Password" element={<ForgotPassword/>} />
 
       {/* Error Pages */}
       <Route path="*" element={<ErrorPage/>}/>
