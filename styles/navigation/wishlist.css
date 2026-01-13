@@ -55,7 +55,7 @@
   left: 0;
   right: 0;
   gap: 15px;
-  visibility: hidden;
+  /* visibility: hidden; */
   display: none;
   }
 

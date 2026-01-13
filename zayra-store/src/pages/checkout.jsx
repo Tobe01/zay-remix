@@ -2,17 +2,24 @@ import { Header } from '../components/header';
 import { Link } from 'react-router-dom';
 import './items.css';
 import './checkout.css';
-// import './homepage.css';
-// import './shop.css';
-// import '../media-queries/header.css';
-// import '../media-queries/main.css';
+import '../media-queries/header.css';
+import '../media-queries/main.css';
 
 export function Checkout(){
   return(
     <>
       <title>checkout</title>
-
       <Header />
+      {/* <!-- Empty Cart Display --> */}
+
+      <div className="emptyCart"> 
+          <img src="images/icons/local_mall_Dark.svg" alt="localMallIcon"/>
+          <p>Your Cart is Empty</p>
+          <Link to="/shop" className="browseButton">
+             BROWSE THE SHOP
+          </Link> 
+      </div>
+
       <section className="checkout">
           <div className="deliveredBy">
             <div className="mainCheckout-container">

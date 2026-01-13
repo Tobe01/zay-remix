@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  visibility: hidden;
+  /* visibility: hidden; */
   }
 
   .viewItemContainer p{
@@ -307,6 +307,7 @@
   }
 
   .ItemQuan{
+  background-color: green;
   margin-top: 25px;
   font-weight: bold;
   display: flex;
@@ -315,19 +316,19 @@
   }
 
   .controlQuan{
+  background-color: blue;
   display: flex;
   align-items: center;
-  height: 30px;
-  padding: 2px;
+  justify-content: center;
   border: 1px solid rgb(126, 125, 125);
   border-radius: 5px;
   }
 
   .controlQuan button{
   border: none;
-  height: 100%;
   cursor: pointer;
   background-color: white;
+  background-color: purple;
   }
 
   .controlQuan button:hover{

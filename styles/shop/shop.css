@@ -307,7 +307,7 @@
   margin-bottom: 10px;
   }
 
-  .ItemQuan{
+  /* .ItemQuan{
   margin-top: 25px;
   font-weight: bold;
   display: flex;
@@ -357,7 +357,7 @@
   .controlQuan input:focus{
   border: none;
   outline: none;
-  }
+  } */
 
   .addItem{
   width: 100%;

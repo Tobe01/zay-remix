@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { WishHeader } from '../components/wish-list-header';
 import './wish-list.css';
 import '../media-queries/header.css';
@@ -6,9 +7,17 @@ import '../media-queries/main.css';
 export function WishList(){
   return(
     <>
-    <title>Wishes</title>
+      <title>Wishes</title>
+      {/* <!-- Empty Cart Display --> */}
 
-     <WishHeader />
+      <WishHeader />
+
+      <div class="emptyWishes">     
+          <img src="images/icons/personal_bag_question_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="emptyLuggage"/>
+          <p>You Have No wishlist Yet</p>
+          <Link to="/shop"><button>BROWSE THE SHOP</button></Link>
+      </div>
+
       <main className="wishU"> 
         <section className="wishlist-container">
 
