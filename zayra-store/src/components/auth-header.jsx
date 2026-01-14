@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../auth/login.css';
 import '../auth/signup.css'
-import '../media-queries/header.css';
-import '../media-queries/main.css';
 
 export function AuthHeader(){
   return(

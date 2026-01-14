@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import './orders-header.css';
-import '../media-queries/header.css';
-import '../media-queries/main.css';
 
 export function OrdersHeader(){
   return(

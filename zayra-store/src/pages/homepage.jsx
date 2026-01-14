@@ -2,8 +2,7 @@ import { Header } from '../components/header';
 import { Footer } from '../components/footer';
 import { Link } from 'react-router-dom';
 import './homepage.css';
-import '../media-queries/header.css';
-import '../media-queries/main.css';
+import '../media-queries/homePage.css';
 
 export function HomePage(){
   return(

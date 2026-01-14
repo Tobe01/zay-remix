@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import './items.css';
 import './checkout.css';
 import './shop.css';
-import '../media-queries/header.css';
-import '../media-queries/main.css';
 
 export function Checkout(){
   return(

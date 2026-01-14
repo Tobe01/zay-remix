@@ -1,7 +1,5 @@
 import { Header } from '../components/header';
 import { Footer } from '../components/footer';
-import '../media-queries/header.css';
-import '../media-queries/main.css';
 import './shop.css';
 
 export function Shop(){

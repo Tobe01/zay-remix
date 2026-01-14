@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import '../media-queries/header.css';
-import '../media-queries/main.css';
 import './header.css';
 import './interval.css';
 import './sub-header.css';
