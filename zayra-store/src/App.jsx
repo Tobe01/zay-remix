@@ -8,8 +8,7 @@ import { Signup } from './auth/signup';
 import { WishList } from '../src/pages/wish-list';
 import { Orders } from '../src/pages/orders';
 import { ErrorPage } from './pages/error-pages/error-page';
-
-import './App.css'
+// import './App.css';
 
 function App() {
   return (
