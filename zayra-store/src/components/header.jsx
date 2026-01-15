@@ -3,6 +3,7 @@ import './header.css';
 import './interval.css';
 import './sub-header.css';
 import './subhover.css';
+import '../media-queries/header.css';
 
 export function Header(){
   return(

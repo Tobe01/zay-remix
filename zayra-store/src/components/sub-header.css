@@ -31,22 +31,6 @@
   stroke-dasharray: 12 63;
   }
 
-  .main-mobile-nav{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: black;
-  visibility: hidden;
-  }
-
-  .main-mobile-nav-sub{
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  }
-
   .mobile-nav-left{
   display: flex;
   padding-left: 20px;

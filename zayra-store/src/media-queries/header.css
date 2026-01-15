@@ -16,7 +16,65 @@
 
    /* iphone 11 and iphone 12 screens */
   @media(max-width: 414px){
-    
+     .main-mobile-nav{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: black;
+      /* visibility: hidden; */
+      visibility: visible;
+      }
+
+        .top-nav {
+          align-items: center;
+          display: flex;
+          flex: 1;
+          height: 30px;
+          justify-content: flex-end;
+          font-size: 15px;
+          white-space: nowrap;
+          /* visibility: visible; */
+          visibility: hidden;
+        }
+
+        .middle-nav{
+          background-color: black;
+          color: white;
+          display: flex;
+          flex: 1;
+          height: 50px;
+          align-items: center;
+          justify-content: center;
+          /* visibility: visible; */
+          visibility: hidden;
+        }
+
+         .bottom-nav{
+            display: flex;
+            flex: 1;
+            color: rgb(212, 210, 210);
+            align-items: center;
+            justify-content: space-between;
+            background-color: black;
+            /* visibility: visible; */
+            visibility: hidden;
+          }
+
+          .main-search{
+            position: absolute;
+            /* visibility: hidden; */
+            visibility: visible;
+            top: 30px;
+            left: 0;
+            right: 0;
+            bottom: 40px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
   }
 
   /* Small–medium phones (iphone 14Promax) */
