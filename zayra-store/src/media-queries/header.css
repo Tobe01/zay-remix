@@ -1,31 +1,31 @@
   /* Extra small phones (iPhone /12/13/14/15, many Androids) */
-  @media (max-width: 390px) {
-  
-  }
+  /* @media (max-width: 390px) {
+    
+  } */
+
+    /* Small laptops (tabs)*/
+  /* @media (max-width: 1024px) {
+    
+  } */
+
+   /* Large desktops */
+  /* @media (min-width: 1440px) {
+    
+  } */
+
 
    /* iphone 11 and iphone 12 screens */
   @media(max-width: 414px){
-
+    
   }
 
   /* Small–medium phones (iphone 14Promax) */
   @media (min-width: 420px) and (max-width: 500px) {
-
+  
   }
-
 
   /* small laptop (tabs)*/
-  @media(min-width: 769px) and (max-width: 1024px){
+  @media(min-width: 501px) and (max-width: 1024px){
 
   }
 
-   /* Small laptops (tabs)*/
-  @media (max-width: 1024px) {
-
-  }
-  
-
-   /* Large desktops */
-  @media (min-width: 1440px) {
- 
-  }

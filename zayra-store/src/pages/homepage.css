@@ -129,6 +129,7 @@
   .second-banner-container, 
   .first-banner-container{
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -150,7 +151,8 @@
   transform: scale(1.03);
   }
 
-  .fourSquare{
+  .fourSquare,
+  .topsellCont{
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -418,7 +420,7 @@
   }
 
   .brandsDescription p{
-  margin: 15px 0 23px 0
+  margin: 15px 0 23px 0;
   }
 
   .brandsCards{
