@@ -383,7 +383,7 @@
           }
   }
 
-  /* small laptop (tabs)*/
+  /* small laptop - tabs */
   @media(min-width: 501px) and (max-width: 1024px){
     .threeCards-container{
       margin: 20px 0;
