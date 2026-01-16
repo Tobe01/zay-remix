@@ -101,61 +101,66 @@ export function Footer(){
           </div>
 
           <div className="topSearches-container">
-            <div>
-              <p>Levi's</p>
-              <p>adidas</p>
-              <p>Makeup</p>
-              <p>Ben Sherman</p>
+            <div className='topSub'>   
+              <div>
+                <p>Levi's</p>
+                <p>adidas</p>
+                <p>Makeup</p>
+                <p>Ben Sherman</p>
+              </div>
+
+              <div>
+                <p>Birkenstock</p>
+                <p>Camilla</p>
+                <p>Country Road</p>
+                <p>Shoes</p>
+              </div>
+
+              <div>
+                <p>Converse</p>
+                <p>Aesop</p>
+                <p>Vans</p>
+                <p>Forever New</p>
+              </div>
+
+              <div>
+                <p>Witchery</p>
+                <p>Skincare</p>
+                <p>Herschel</p>
+                <p>Lacoste</p>
+              </div>
             </div>
 
-            <div>
-              <p>Birkenstock</p>
-              <p>Camilla</p>
-              <p>Country Road</p>
-              <p>Shoes</p>
+            <div className='topSub'>
+              <div>
+                <p>Lorna Jane</p>
+                <p>New Balance</p>
+                <p>Nike</p>
+                <p>Swimwear</p>
+              </div>
+
+              <div>
+                <p>Calvin Klein</p>
+                <p>Ray-Ban</p>
+                <p>Puma</p>
+                <p>Polo Ralph Lauren</p>
+              </div>
+
+              <div>
+                <p>Sneakers</p>
+                <p>Sandals</p>
+                <p>ASICS</p>
+                <p>Dresses</p>
+              </div>
+
+              <div>
+                <p>Jeans</p>
+                <p>Tommy Hilfiger</p>
+                <p>Tony Bianco</p>
+                <p>P.E Nation</p>
+              </div>
             </div>
 
-            <div>
-              <p>Converse</p>
-              <p>Aesop</p>
-              <p>Vans</p>
-              <p>Forever New</p>
-            </div>
-
-            <div>
-              <p>Witchery</p>
-              <p>Skincare</p>
-              <p>Herschel</p>
-              <p>Lacoste</p>
-            </div>
-
-            <div>
-              <p>Lorna Jane</p>
-              <p>New Balance</p>
-              <p>Nike</p>
-              <p>Swimwear</p>
-            </div>
-
-            <div>
-              <p>Calvin Klein</p>
-              <p>Ray-Ban</p>
-              <p>Puma</p>
-              <p>Polo Ralph Lauren</p>
-            </div>
-
-            <div>
-              <p>Sneakers</p>
-              <p>Sandals</p>
-              <p>ASICS</p>
-              <p>Dresses</p>
-            </div>
-
-            <div>
-              <p>Jeans</p>
-              <p>Tommy Hilfiger</p>
-              <p>Tony Bianco</p>
-              <p>P.E Nation</p>
-            </div>
           </div>
         </div>
 

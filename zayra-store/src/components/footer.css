@@ -239,8 +239,16 @@
   }
 
   .topSearches-container{
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topSub{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .footerBottomMain{
