@@ -43,13 +43,13 @@ export function Header(){
 
               <div className="mobile-searchbar-main">
                 <div className="mobile-search-bar">
-                    <button className="first-button">
+                    <div className="first-button">
                       <img src="images/icons/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="search icon" />
-                    </button>
+                    </div>
                     <input className="mobile-input" placeholder="Search for products, brands, or categories" />
-                    <button className="second-button">
+                    <div className="second-button">
                       <img src="images/icons/photo_camera_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="photoCam" />
-                    </button>
+                    </div>
                 </div>
               </div>
 
@@ -268,6 +268,7 @@ export function Header(){
               </div>
           </div>
                   
+          {/* Search icon tht appears on clicked central search */}
           <div className="main-search">
             <div className="main-search-container">
               <button className="close-button">

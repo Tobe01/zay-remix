@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
+import '../media-queries/footer.css';
 import './footer.css';
+
 
 export function Footer(){
   return(
@@ -168,8 +170,8 @@ export function Footer(){
             </div>
             
             <div className="brandOwnership">
-            <h2>Zayra&trade;</h2>
-            <p>Developed with <span>&hearts;</span> by Tobe</p>
+              <h2>Zayra&trade;</h2>
+              <p>Developed with <span>&hearts;</span> by Tobe</p>
             </div>
           </div>
 

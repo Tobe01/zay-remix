@@ -1,17 +1,8 @@
-  .footerTop{
+  /* .footerTop{
   background-color: black;
   padding: 50px;
   color: white;
-  }
-
-  .footer-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: clamp(10px, 2vw, 14px);
-  border-bottom: 1px solid grey;
-  padding-bottom: 50px;
-  }
+  } */
 
   ul {
   list-style: none;
