@@ -1,20 +1,17 @@
-import { Link } from 'react-router-dom';
-import { AuthHeader } from '../components/auth-header';
-import './forgot-password.css';
+import { Link } from "react-router-dom";
+import { AuthHeader } from "../components/auth-header";
+import "./forgot-password.css";
 
-
-export function ForgotPassword(){
-  return(
+export function ForgotPassword() {
+  return (
     <>
-     <title>Forgot Password</title>
-     <AuthHeader/>
+      <title>Forgot Password</title>
+      <AuthHeader />
 
-     <main className="main">
+      <main className="main">
         <section className="">
           <div className="forgotPass-container">
-            <div className="forgotPass-logo">
-              Forgot Password
-            </div>
+            <div className="forgotPass-logo">Forgot Password</div>
 
             <form className="forgotPass-form">
               <div className="forgotPass-group">
@@ -28,10 +25,7 @@ export function ForgotPassword(){
                 />
               </div>
 
-              <button
-                className="forgotPass-submit"
-                type="submit"
-              >
+              <button className="forgotPass-submit" type="submit">
                 Send Email
               </button>
             </form>
@@ -39,13 +33,13 @@ export function ForgotPassword(){
             <p className="signup-link">
               Don&apos;t have an account?
               <Link to="/Signup" className="signup-link link">
-                {" "}Sign up now
+                {" "}
+                Sign up now
               </Link>
             </p>
           </div>
         </section>
-     </main>
-
+      </main>
     </>
-  )
+  );
 }

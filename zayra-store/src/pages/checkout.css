@@ -1,5 +1,5 @@
-  /* Styles for empty cart */
-  .emptyCart{
+/* Styles for empty cart */
+.emptyCart {
   background-color: rgb(245, 239, 239);
   margin: auto;
   display: flex;
@@ -15,21 +15,21 @@
   gap: 15px;
   visibility: hidden;
   display: none;
-  }
+}
 
-  .emptyCart img{
+.emptyCart img {
   width: 5%;
-  }
+}
 
-  .emptyCart p{
+.emptyCart p {
   margin: 0;
   font-size: 30px;
   font-weight: 400;
   color: rgb(202, 195, 195);
-  }
+}
 
 
- .browseButton{
+.browseButton {
   padding: 13px 20px;
   margin: 0;
   background-color: rgb(48, 47, 47);
@@ -39,10 +39,10 @@
   cursor: pointer;
   font-weight: 400;
   color: white;
-  }
+}
 
 
-  .checkout{
+.checkout {
   margin: auto;
   padding: 200px 0 50px 0;
   display: flex;
@@ -50,42 +50,42 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(245, 239, 239);
-  }
+}
 
-  .bottom-nav{
+.bottom-nav {
   padding-bottom: 15px;
-  }
+}
 
-  .checkoutParent{
+.checkoutParent {
   background-color: white;
   margin-bottom: 5px;
   padding: 8px 10px;
   border-radius: 5px;
   width: fit-content;
-  }
+}
 
-   .checkoutParent p{
+.checkoutParent p {
   color: grey;
   margin: 0;
   font-size: 25px;
   font-weight: bold;
-  }
+}
 
 
-  .mainCheckout-container{
+.mainCheckout-container {
   display: flex;
   justify-content: space-between;
   gap: 15px;
   margin-top: 20px;
-  }
+}
 
-  .checkoutLeft{
+.checkoutLeft {
   display: flex;
   flex-direction: column;
   flex: 1;
-  }
+}
 
-  .checkoutContents{
+.checkoutContents {
   display: flex;
   align-items: center;
   flex: 1;
@@ -95,52 +95,52 @@
   max-width: 600px;
   border-radius: 5px;
   margin-bottom: 10px;
-  }
+}
 
-  .checkoutTop{
+.checkoutTop {
   display: flex;
   gap: 17px;
-  }
+}
 
-  .checkoutImage{
+.checkoutImage {
   width: 100px;
-  }
+}
 
-  .checkoutImage img{
+.checkoutImage img {
   min-width: 100px;
-  }
+}
 
-  .checkoutItems{
-    display: flex;
-    align-items: start;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
+.checkoutItems {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
 
-  .checkoutItems h1{
-    font-weight: 300;
-    white-space: wrap;
-  }
+.checkoutItems h1 {
+  font-weight: 300;
+  white-space: wrap;
+}
 
-  .checkoutItems p:first-of-type{
+.checkoutItems p:first-of-type {
   color: green;
   margin-top: 20px;
   font-size: 20px;
   font-weight: bold;
   margin: 0;
-  }
+}
 
-  .checkoutItems h1{
+.checkoutItems h1 {
   font-size: clamp(16px, 2vw, 20px);
   color: black;
   margin-bottom: 8px;
-  }
+}
 
-  .deleteContainer{
-   margin-bottom: auto;
-  }
+.deleteContainer {
+  margin-bottom: auto;
+}
 
-  .deleteContainer button{
+.deleteContainer button {
   width: 40px;
   padding: 5px 0;
   border-radius: 5px;
@@ -151,91 +151,92 @@
   border: none;
   color: transparent;
   background-color: rgb(201, 17, 17);
-  }
+}
 
-  .deleteContainer button:hover{
+.deleteContainer button:hover {
   background-color: rgb(245, 43, 43);
-  }
+}
 
-  .deleteContainer button:active{
+.deleteContainer button:active {
   background-color: rgb(134, 25, 25);
-  }
+}
 
-  .OrderSummary{
+.OrderSummary {
   display: flex;
   flex-direction: column;
   flex: 1;
   max-width: 380px;
   border-radius: 3px;
-  }
+}
 
-  .orderSummary-Top h1{
+.orderSummary-Top h1 {
   font-weight: 500;
   font-size: 21px;
   margin-bottom: 10px;
-  }
+}
 
-  .orderSummary-Top{
+.orderSummary-Top {
   background-color: white;
   padding: 10px 25px 20px 25px;
   border-radius: 5px;
-  }
+}
 
 
-  .orderfirst{
+.orderfirst {
   border-bottom: 1px solid rgb(206, 199, 199);
-  }
+}
 
-  .subtotal{
+.subtotal {
   display: flex;
   justify-content: space-between;
-  }
+}
 
-  .discount{
+.discount {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  }
+}
 
-  .orderSecond{
+.orderSecond {
   padding: 10px 0 33px 0;
-  }
+}
 
-  .orderTotal{
+.orderTotal {
   display: flex;
   justify-content: space-between;
   margin-bottom: 37px;
-  }
+}
 
-  .orderTotal p:nth-child(2){
-    color: green;
-    font-weight: bold;
-  }
+.orderTotal p:nth-child(2) {
+  color: green;
+  font-weight: bold;
+}
 
-  .orderDiscount{
+.orderDiscount {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 
-  }
+}
 
-  .orderDiscount h4, p{
+.orderDiscount h4,
+p {
   margin: 0;
   font: 16px;
-  }
+}
 
-  .add-container button:nth-child(2){
+.add-container button:nth-child(2) {
   background-color: black;
   font-size: 24px;
   padding: 13px 0;
-  }
+}
 
-  .add-container button:nth-child(1){
+.add-container button:nth-child(1) {
   padding: 16px 0;
   background-color: rgb(48, 47, 47);
-  }
+}
 
-  .add-container Button:nth-child(3){
+.add-container Button:nth-child(3) {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -250,54 +251,54 @@
   margin-top: 10px;
   gap: 5px;
   padding: 12px 0;
-  }
+}
 
-  .add-container Button:nth-child(3) img{
+.add-container Button:nth-child(3) img {
   width: 100px;
   margin: 0;
-  }
+}
 
-  .orderBottom{
+.orderBottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
-  }
+}
 
-  .orderBottom img{
+.orderBottom img {
   width: 35px;
-  }
-  
-  .promoPromo{
+}
+
+.promoPromo {
   background-color: white;
   padding: 20px 25px 25px 25px;
   white-space: nowrap;
   border-radius: 5px;
   margin-top: 20px;
-  }
+}
 
-   .promoIn{
+.promoIn {
   display: flex;
   align-items: center;
   margin: auto;
   justify-content: center;
   gap: 10px;
-  }
+}
 
-  .promoPromo h3{
+.promoPromo h3 {
   font-weight: 500;
   margin: 0;
   margin-bottom: 5px;
-  }
+}
 
-  .promoPromo input{
+.promoPromo input {
   border: 1px solid rgb(172, 166, 166);
   background-color: white;
   padding: 15px 30px 15px 20px;
   border-radius: 4px;
-  }
+}
 
-  .promoPromo button{
+.promoPromo button {
   padding: 13.5px 20px;
   border-radius: 4px;
   border: 1px solid rgb(172, 166, 166);
@@ -306,15 +307,15 @@
   font-weight: 100;
   cursor: pointer;
   margin-bottom: 15px;
-  }
+}
 
-  .promoPromo input::placeholder{
+.promoPromo input::placeholder {
   font-size: 17px;
   font-weight: 100;
   color: rgb(172, 166, 166);
-  }
+}
 
-  .promoPromo input:focus{
+.promoPromo input:focus {
   outline: none;
   border: 1.5px solid black;
-  }
+}

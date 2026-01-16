@@ -1,18 +1,18 @@
- .wishU{
+.wishU {
   background-color: rgb(245, 239, 239);
   height: 100vh;
   padding-top: 10px;
- }
- 
- .WishesSub{
+}
+
+.WishesSub {
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 30px;
-  }
+}
 
-  .wishesButton button{
+.wishesButton button {
   border: none;
   display: flex;
   align-items: center;
@@ -23,32 +23,32 @@
   border-radius: 5px;
   font-size: clamp(16px, 2vw, 18px);
   background-color: white;
-  }
+}
 
-  .wishesButton button:hover{
+.wishesButton button:hover {
   background-color: rgb(240, 238, 238);
   color: black;
-  }
+}
 
-  .wishesButton button:active{
+.wishesButton button:active {
   background-color: white;
-  }
+}
 
-  .wishesCont {
+.wishesCont {
   display: flex;
   align-items: center;
   gap: 10px;
-  }
+}
 
-  .wishesCont img{
-   cursor: unset;
-  }
+.wishesCont img {
+  cursor: unset;
+}
 
-  .wishesCont p{
+.wishesCont p {
   font-size: clamp(16px, 2vw, 18px);
-  }
+}
 
-  .emptyWishes{
+.emptyWishes {
   background-color: rgb(245, 239, 239);
   margin: auto;
   display: flex;
@@ -63,49 +63,49 @@
   gap: 15px;
   visibility: hidden;
   display: none;
-  }
+}
 
-  .emptyWishes img{
+.emptyWishes img {
   width: clamp(80px, 2vw, 120px);
-  }
+}
 
-  .emptyWishes p{
+.emptyWishes p {
   font-size: 30px;
-  }
+}
 
-  .emptyWishes button{
+.emptyWishes button {
   border: none;
   padding: 15px 25px;
   border-radius: 5px;
   background-color: rgb(48, 47, 47);
   color: white;
-  }
+}
 
-  h1{
+h1 {
   font-size: clamp(16px, 2vw, 20px);
   margin: 0;
   margin-bottom: 10px;
-  }
+}
 
-  button{
+button {
   cursor: pointer;
-  }
+}
 
-  p{
+p {
   margin: 0;
-  }
+}
 
-  .wishContainer{
+.wishContainer {
   display: flex;
   gap: 10px;
   font-size: 27px;
-  }
+}
 
-  .wishContainer img{
+.wishContainer img {
   width: 30px;
-  }
+}
 
-  .wishlist-container{
+.wishlist-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,81 +114,83 @@
   margin: 20px 0 0 20px;
   border-radius: 3px;
   gap: 10px;
-  }
+}
 
-  .wishCard{
+.wishCard {
   background-color: white;
   padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 3px;
-  }
+}
 
-  .imageDesc{
+.imageDesc {
   display: flex;
   gap: 10px;
-  }
+}
 
-  .imageDesc button{
+.imageDesc button {
   border: 0;
   border-radius: 4px;
   background-color: rgb(199, 18, 18);
   color: white;
   margin-bottom: auto;
   padding: 5px 8px;
-  }
+}
 
-  .imageDesc button:hover{
+.imageDesc button:hover {
   background-color: rgb(196, 23, 23);
-  }
+}
 
-  .imageDesc button:active{
+.imageDesc button:active {
   background-color: rgb(221, 21, 21);
-  }
+}
 
-  .imageContainer{
+.imageContainer {
   width: 100px;
-  }
+}
 
-  .imageContainer img{
+.imageContainer img {
   width: 100%;
-  }
+}
 
-  .descriptionContainer{
+.descriptionContainer {
   display: flex;
   align-items: center;
   margin-bottom: auto;
   gap: 10px;
-  }
+}
 
-  .priceDesc{
+.priceDesc {
   max-width: 500px;
-  }
+}
 
-  .priceDesc p{
+.priceDesc p {
   color: green;
   font-weight: 500;
   font-size: clamp(16px, 2vw, 18px);
-  }
+}
 
-  .buttonsContainer{
+.buttonsContainer {
   display: flex;
   margin-left: auto;
-  }
+}
 
-  .buttonsContainer button{
+.buttonsContainer button {
   border: 0;
   padding: 8px 20px;
   border-radius: 4px;
   background-color: rgb(48, 47, 47);
   color: white;
-  }
+}
 
-  .buttonsContainer button:hover, .emptyWishes button:hover{
+.buttonsContainer button:hover,
+.emptyWishes button:hover {
   background-color: rgb(109, 107, 107);
-  }
+}
 
-  .buttonsContainer button:active, .emptyWishes button:active{
+.buttonsContainer button:active,
+.emptyWishes button:active {
   background-color: rgb(34, 33, 33);
-  }
+}

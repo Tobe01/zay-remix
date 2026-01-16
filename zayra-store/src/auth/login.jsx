@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom';
-import { AuthHeader } from '../components/auth-header';
-import './login.css';
+import { Link } from "react-router-dom";
+import { AuthHeader } from "../components/auth-header";
+import "./login.css";
 
-export function Login(){
-  return(
+export function Login() {
+  return (
     <>
-     <title>Login</title>
-     <AuthHeader/>
-      
+      <title>Login</title>
+      <AuthHeader />
+
       <main className="main">
         <section className="login-container">
           <form className="login-form">
@@ -86,29 +86,29 @@ export function Login(){
 
             <div className="flex-row">
               <button className="btn google">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              viewBox="0 0 512 512"
-            >
-              <path
-                style={{ fill: "#FBBB00" }}
-                d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256c0-42.451,10.324-82.483,28.624-117.732l57.992,10.632 25.404,57.644z"
-              />
-              <path
-                style={{ fill: "#518EF8" }}
-                d="M507.527,208.176C512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451h-136.89V208.176z"
-              />
-              <path
-                style={{ fill: "#28B446" }}
-                d="M416.253,455.624C372.396,490.901,316.666,512,256,512c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91z"
-              />
-              <path
-                style={{ fill: "#F14336" }}
-                d="M419.404,58.936C375.068,22.126,318.115,0,256,0c-98.94,0-184.77,56.123-227.376,138.268l83.397,68.276z"
-              />
-            </svg>
-            Google
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    style={{ fill: "#FBBB00" }}
+                    d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256c0-42.451,10.324-82.483,28.624-117.732l57.992,10.632 25.404,57.644z"
+                  />
+                  <path
+                    style={{ fill: "#518EF8" }}
+                    d="M507.527,208.176C512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451h-136.89V208.176z"
+                  />
+                  <path
+                    style={{ fill: "#28B446" }}
+                    d="M416.253,455.624C372.396,490.901,316.666,512,256,512c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91z"
+                  />
+                  <path
+                    style={{ fill: "#F14336" }}
+                    d="M419.404,58.936C375.068,22.126,318.115,0,256,0c-98.94,0-184.77,56.123-227.376,138.268l83.397,68.276z"
+                  />
+                </svg>
+                Google
               </button>
 
               <button className="btn apple">
@@ -128,5 +128,5 @@ export function Login(){
         </section>
       </main>
     </>
-  )
+  );
 }

@@ -1,21 +1,24 @@
-import { Link } from 'react-router-dom';
-import { Header } from '../../components/header';
-import './error-page.css';
+import { Link } from "react-router-dom";
+import { Header } from "../../components/header";
+import "./error-page.css";
 
-export function ErrorPage(){
-  return(
+export function ErrorPage() {
+  return (
     <>
-     <Header/>
-     <div className='errorContainer'>
+      <Header />
+      <div className="errorContainer">
         <div>
-          <img src="images/icons/error_24dp_434343_FILL0_wght400_GRAD0_opsz24.svg" width="100"/>
+          <img
+            src="images/icons/error_24dp_434343_FILL0_wght400_GRAD0_opsz24.svg"
+            width="100"
+          />
           <h1>404 ERROR</h1>
           <p>This page does'nt exist!</p>
           <Link to="/">
-           <button>Go Back</button>
+            <button>Go Back</button>
           </Link>
         </div>
-     </div>
+      </div>
     </>
-  )
+  );
 }

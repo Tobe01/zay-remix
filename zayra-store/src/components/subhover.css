@@ -1,4 +1,4 @@
-  .subHover{
+.subHover {
   display: flex;
   align-items: top;
   justify-content: space-between;
@@ -15,39 +15,40 @@
   position: absolute;
   width: 96%;
   bottom: -287px;
-  }
+}
 
-  .subHover h4{
+.subHover h4 {
   margin: 0;
   cursor: pointer;
   margin-bottom: 10px;
-  }
+}
 
-  .ManageBrands p, .brandsA-Z p{
+.ManageBrands p,
+.brandsA-Z p {
   margin: 0;
   margin-top: 10px;
   cursor: pointer;
-  }
+}
 
-  .subHoverImages{
+.subHoverImages {
   display: grid;
   height: 100%;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 15px;
   row-gap: 15px;
-  }
+}
 
-  .subHoverImages-div{
+.subHoverImages-div {
   width: 180px;
   display: flex;
   height: 100%;
   cursor: pointer;
-  }
+}
 
-  .subHoverImages img{
+.subHoverImages img {
   display: flex;
   flex: 1;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  }
+}
