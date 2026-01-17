@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './header.js/header';
 import "./header.css";
 import "./interval.css";
 import "./sub-header.css";
@@ -14,7 +15,7 @@ export function Header() {
           <div className="main-mobile-nav-sub">
             <div className="mobile-nav-left">
               {/* From Uiverse.io by JulanDeAlb */}
-              <label className="hamburger">
+              <label className="hamburger js-hamburger">
                 <input className="hamburger-input" type="checkbox" />
                 <svg viewBox="0 0 32 32">
                   <path
@@ -76,8 +77,8 @@ export function Header() {
             </div>
           </div>
 
-          <div className="HamburgerContainer">
-            <div className="hamburgerItems">
+          <div className="HamburgerContainer js-HamburgerContainer">
+            <div className="hamburgerItems js-HamburgerItems">
               <div className="closeContainer">
                 <Link to="/">
                   <img src="images/logo/zayra-logo-1.webp" alt="zayraLogo" />
