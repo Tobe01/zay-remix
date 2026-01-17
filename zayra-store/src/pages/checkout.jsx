@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./items.css";
 import "./checkout.css";
 import "./shop.css";
+import '../media-queries/checkout.css';
 
 export function Checkout() {
   return (

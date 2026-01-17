@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { AuthHeader } from "../components/auth-header";
 import "./forgot-password.css";
+import '../media-queries/forgot-password.css';
 
 export function ForgotPassword() {
   return (
