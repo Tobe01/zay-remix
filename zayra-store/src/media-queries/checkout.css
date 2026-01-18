@@ -20,9 +20,9 @@
     height: 100hv;
   }
 
-  .orderSummary-Top { 
-  padding: 10px 45px 20px 45px;
-}
+  .orderSummary-Top {
+    padding: 10px 45px 20px 45px;
+  }
 }
 
 /* Small–medium phones (iphone 14Promax) */
@@ -47,6 +47,10 @@
     height: 100hv;
   }
 
+  .orderSummary-Top {
+    padding: 10px 45px 20px 45px;
+  }
+
 }
 
 /* small laptop - tabs */
@@ -69,6 +73,10 @@
 
   .checkout {
     height: 100hv;
+  }
+
+  .orderSummary-Top {
+    padding: 10px 45px 20px 45px;
   }
 
 
