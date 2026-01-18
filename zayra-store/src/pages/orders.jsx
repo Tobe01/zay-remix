@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { OrdersHeader } from "../components/orders-header";
-import "../components/orders-header.css";
+import './orders.css';
+import '../media-queries/orders.css';
+import '../media-queries/orders-headers.css';
 
 export function Orders() {
   return (
