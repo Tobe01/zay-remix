@@ -14,7 +14,7 @@
   }
 
   .mobile-input {
-    padding: 17.5px 0;
+    padding: 18px 0;
   }
 
   .second-button,
@@ -46,21 +46,7 @@
   }
 
   .quantity {
-    /* background-color: rgb(250, 24, 24); */
-    background-color: green;
-    /* position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
-    top: -10px;
-    /* right: -13px;
-    height: 12px;
-    min-width: 12px;
-    border-radius: 11px;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 5.5px 6px 5.5px 6px;
-    color: white; */
+    top: -12px;
   }
 
 }
@@ -81,7 +67,7 @@
   }
 
   .mobile-input {
-    padding: 17.5px 0;
+    padding: 18px 0;
   }
 
   .second-button,
@@ -112,6 +98,10 @@
     visibility: hidden;
   }
 
+  .quantity {
+    top: -12px;
+  }
+
 }
 
 /* small laptop - tabs */
@@ -130,7 +120,7 @@
   }
 
   .mobile-input {
-    padding: 17.5px 0;
+    padding: 18px 0;
   }
 
   .second-button,
@@ -164,6 +154,10 @@
   .right-sub-icon {
     visibility: hidden;
     display: none;
+  }
+
+  .quantity {
+    top: -12px;
   }
 
 }
