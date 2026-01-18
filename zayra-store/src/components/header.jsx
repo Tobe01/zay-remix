@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { activateHamburger, closeWindow } from './header.js/header';
+import { activateHamburger, closeWindow } from './drop-menu/dropdown';
 import "./header.css";
 import "./interval.css";
 import "./sub-header.css";

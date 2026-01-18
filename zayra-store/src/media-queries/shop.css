@@ -52,6 +52,117 @@
     font-size: 14.5px;
     padding: 10px 13px;
   }
+  
+    .viewSub {
+    /* background-color: white;
+    max-width: 800px;
+    min-width: 800px;
+    position: fixed;
+    top: 20px;
+    border-radius: 5px; */
+
+    background-color: hotpink;
+    max-width: 400px;
+    min-width: 400px;
+    padding: 5px 0;
+    margin-top: 0;
+  }
+
+    .viewCards {
+    /* display: flex;
+    padding: 0 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-height: fit-content;
+    gap: 10px; */
+
+    flex-direction: column;
+  }
+
+    .imgContainer {
+    /* height: 528px;
+    width: 60%;
+    border-radius: 7px;
+    position: relative; */
+
+    width: 98%;
+    height: 320px;
+  }
+
+    .itemsCont {
+    /* max-width: 45%;
+    padding: 0 20px; */
+
+    background-color: yellowgreen;
+    max-width: 98%;
+    padding: 5px 0;
+  }
+
+  .categoryContainer{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0;
+    padding: 0;
+    white-space: nowrap; */
+  }
+
+    .Itemu {
+    /* display: flex;
+    flex-direction: column; */
+
+    background-color: pink;
+    flex-direction: row;
+    /* width: 50px; */
+  }
+
+    .itemOrder {
+    /* display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px; */
+
+    background-color: yellow;
+    visibility: hidden;
+    display: none;
+  }
+
+    .itemPrice {
+    /* margin: 0;
+    margin-top: 20px;
+    color: green; */
+/* 
+    color: blue; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  .itemPrice h1 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+  }
+
+   .itemPrice p{
+    margin: 0;
+    padding: 0;
+   }
+
+    .imgContainer img {
+    /* height: 100%;
+    width: 100%; */
+    object-fit: contain;
+    /* border-radius: 7px;
+    cursor: auto;
+    transition: transform 1.5s ease-in; */
+  }
+
 
 }
 
@@ -109,6 +220,118 @@
     font-size: 16px;
     padding: 10px 13px;
   }
+
+   .viewSub {
+    /* background-color: white;
+    max-width: 800px;
+    min-width: 800px;
+    position: fixed;
+    top: 20px;
+    border-radius: 5px; */
+
+    background-color: hotpink;
+    max-width: 400px;
+    min-width: 400px;
+    padding: 5px 0;
+    margin-top: 0;
+  }
+
+    .viewCards {
+    /* display: flex;
+    padding: 0 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-height: fit-content;
+    gap: 10px; */
+
+    flex-direction: column;
+  }
+
+    .imgContainer {
+    /* height: 528px;
+    width: 60%;
+    border-radius: 7px;
+    position: relative; */
+
+    width: 98%;
+    height: 320px;
+  }
+
+    .itemsCont {
+    /* max-width: 45%;
+    padding: 0 20px; */
+
+    background-color: yellowgreen;
+    max-width: 98%;
+    padding: 5px 0;
+  }
+
+  .categoryContainer{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0;
+    padding: 0;
+    white-space: nowrap; */
+  }
+
+    .Itemu {
+    /* display: flex;
+    flex-direction: column; */
+
+    background-color: pink;
+    flex-direction: row;
+    /* width: 50px; */
+  }
+
+    .itemOrder {
+    /* display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px; */
+
+    background-color: yellow;
+    visibility: hidden;
+    display: none;
+  }
+
+    .itemPrice {
+    /* margin: 0;
+    margin-top: 20px;
+    color: green; */
+/* 
+    color: blue; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  .itemPrice h1 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+  }
+
+   .itemPrice p{
+    margin: 0;
+    padding: 0;
+   }
+
+    .imgContainer img {
+    /* height: 100%;
+    width: 100%; */
+    object-fit: contain;
+    /* border-radius: 7px;
+    cursor: auto;
+    transition: transform 1.5s ease-in; */
+  }
+
+
 }
 
 /* small laptop - tabs */
@@ -156,6 +379,15 @@
 
   .trend1 button:first-child {
     font-size: 14.5px;
-    padding: 10px 13px;
+  }
+
+    .viewSub {
+    /* background-color: white;
+    max-width: 800px;
+    min-width: 800px;
+    position: fixed;
+    top: 20px;
+    border-radius: 5px; */
+    margin-top: 150px;
   }
 }
