@@ -20,6 +20,9 @@
     height: 100hv;
   }
 
+  .orderSummary-Top { 
+  padding: 10px 45px 20px 45px;
+}
 }
 
 /* Small–medium phones (iphone 14Promax) */
