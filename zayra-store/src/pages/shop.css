@@ -458,8 +458,6 @@ h1 {
   grid-template-columns: repeat(5, 1fr);
   column-gap: 10px;
   row-gap: 30px;
-  /* visibility: hidden;
-display: none; */
 }
 
 .mens-container {
@@ -534,6 +532,7 @@ display: none; */
   transition: transform 0.5s ease-in;
   visibility: hidden;
   display: none;
+  height: 100%;
 }
 
 .HoverDiv:hover {

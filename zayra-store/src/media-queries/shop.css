@@ -1,0 +1,161 @@
+/* iphone 11 and iphone 12 screens */
+@media(max-width: 414px) {
+  .topImg-container {
+    height: 58%;
+  }
+
+  .item-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bottomItem-container {
+    padding: 7px 10px 10px 10px;
+  }
+
+  .HoverDiv {
+    height: 102.5%;
+  }
+
+  .shop-container {
+    padding: 180px 0 20px 0;
+  }
+
+  .shop-container-sub {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 0 10px;
+  }
+
+  .trend {
+    margin-right: auto;
+  }
+
+  .trend h3 {
+    margin-top: 6px;
+  }
+
+  .trend1 {
+    justify-content: center;
+    gap: 5px;
+    padding: 0 10px;
+  }
+
+
+  .trend1 button,
+  .trendItem button {
+    font-size: 14.4px;
+    padding: 10px 12px;
+  }
+
+  .trend1 button:first-child {
+    font-size: 14.5px;
+    padding: 10px 13px;
+  }
+
+}
+
+/* Small–medium phones (iphone 14Promax) */
+@media (min-width: 420px) and (max-width: 500px) {
+  .topImg-container {
+    height: 58%;
+  }
+
+  .item-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bottomItem-container {
+    padding: 7px 10px 10px 10px;
+  }
+
+  .HoverDiv {
+    height: 102.5%;
+  }
+
+  .shop-container {
+    padding: 180px 0 20px 0;
+  }
+
+  .shop-container-sub {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 0 10px;
+  }
+
+  .trend {
+    margin-right: auto;
+  }
+
+  .trend h3 {
+    margin-top: 6px;
+  }
+
+  .trend1 {
+    justify-content: center;
+    gap: 5px;
+    padding: 0 10px;
+  }
+
+
+  .trend1 button,
+  .trendItem button {
+    font-size: 16px;
+    padding: 10px 12px;
+  }
+
+  .trend1 button:first-child {
+    font-size: 16px;
+    padding: 10px 13px;
+  }
+}
+
+/* small laptop - tabs */
+@media(min-width: 501px) and (max-width: 1024px) {
+  .topImg-container {
+    height: 68%;
+  }
+
+  .item-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .bottomItem-container {
+    padding: 7px 10px 10px 10px;
+  }
+
+  .HoverDiv {
+    height: 102.5%;
+  }
+
+  .shop-container {
+    padding: 180px 0 20px 0;
+  }
+
+  .trend {
+    margin-right: auto;
+  }
+
+  .trend h3 {
+    margin-top: 6px;
+  }
+
+  .trend1 {
+    justify-content: center;
+    gap: 5px;
+    padding: 0 10px;
+  }
+
+
+  .trend1 button,
+  .trendItem button {
+    font-size: 14.4px;
+    padding: 10px 20px;
+  }
+
+  .trend1 button:first-child {
+    font-size: 14.5px;
+    padding: 10px 13px;
+  }
+}
