@@ -159,14 +159,6 @@ export function Checkout() {
                     />
                   </div>
                 </div>
-
-                <div className="promoPromo">
-                  <h3>Promo Code</h3>
-                  <div className="promoIn">
-                    <input type="search" placeholder="Enter code here..." />
-                    <button>APPLY</button>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

@@ -8,11 +8,6 @@
     padding: 20px;
   }
 
-  .promoPromo button {
-    padding-top: 13px;
-    padding-bottom: 15px;
-  }
-
   .emptyCart {
     padding-bottom: 400px;
   }
@@ -35,11 +30,6 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-  }
-
-  .promoPromo button {
-    padding-top: 13px;
-    padding-bottom: 15px;
   }
 
   .emptyCart {
@@ -68,17 +58,6 @@
 
   .OrderSummary {
     min-width: 600px;
-  }
-
-  .promoPromo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .promoPromo button {
-    padding-top: 13px;
-    padding-bottom: 15px;
   }
 
   .emptyCart img {
