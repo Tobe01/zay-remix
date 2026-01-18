@@ -1,9 +1,6 @@
 // Men's Data
-
 export const mensData = [{
   id: 2,
-  buttonTag: 2,
-  favId: 2,
   images: {
     image1: 'shyam-mishra-QqQfx-8BtXg-unsplash.webp',
     image2: 'shyam-mishra-pHEUEz8tgs0-unsplash.webp',
@@ -26,8 +23,6 @@ export const mensData = [{
   productDesc: 'Light fabric crafted for warm weather and easy movement.'
 }, {
   id: 7,
-  buttonTag: 7,
-  favId: 7,
   images: {
     image1: '2148123930.webp',
     image2: '2148124073.webp',
@@ -50,8 +45,6 @@ export const mensData = [{
   productDesc: 'Soft flowy fabric designed for casual summer and evening wear.'
 },  {
   id: 8,
-  buttonTag: 8,
-  favId: 8,
   images: {
     image1: '2148448892.webp',
     image2: '2148448870.webp',
@@ -74,8 +67,6 @@ export const mensData = [{
   productDesc: 'Quick-dry material offering breathable comfort for workouts.'
 },  {
   id: 9,
-  buttonTag: 9,
-  favId: 9,
   images: {
     image1: '2149137839.webp',
     image2: '2149137838.webp',
@@ -98,8 +89,6 @@ export const mensData = [{
   productDesc: 'Light airy fabric ideal for warm weather and casual styling.'
 },  {
   id: 10,
-  buttonTag: 10,
-  favId: 10,
   images: {
     image1: 'giorgio-trovato-_0n2OqRTzKA-unsplash.webp',
     image2: 'giorgio-trovato-RrNKFfM9jJI-unsplash.webp',
@@ -122,8 +111,6 @@ export const mensData = [{
   productDesc: 'Soft cotton-blend with added stretch for daily movement.'
 },  {
   id: 13,
-  buttonTag: 13,
-  favId: 13,
   images: {
     image1: 'philip-blystone-yUx3RlXxe_M-unsplash.webp',
     image2: 'philip-blystone-kMH9cuydbRo-unsplash.webp',
@@ -146,8 +133,6 @@ export const mensData = [{
   productDesc: 'Smooth satin texture shaped for elegant night outings.'
 },  {
   id: 14,
-  buttonTag: 14,
-  favId: 14,
   images: {
     image1: 'ryan-plomp-76w_eDO1u1E-unsplash.webp',
     image2: 'sahand-babali-U2JtujrbGM8-unsplash.webp',
@@ -170,8 +155,6 @@ export const mensData = [{
   productDesc: 'Warm fleece build for relaxed everyday comfort.'
 },  {
   id: 15,
-  buttonTag: 15,
-  favId: 15,
   images: {
     image1: '2149153334.webp',
     image2: '2149153333.webp',
@@ -194,8 +177,6 @@ export const mensData = [{
   productDesc: 'Three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fash.'
 }, {
   id: 18,
-  buttonTag: 18,
-  favId: 18,
   images: {
     image1: 'julian-lates-_cWae6ObQNs-unsplash.webp',
     image2: 'olaniyan-oluwapelumi-6yBa2rO4jh4-unsplash.webp',
@@ -218,8 +199,6 @@ export const mensData = [{
   productDesc: 'Durable cotton cargo made for comfort and utility.'
 },  {
   id: 19,
-  buttonTag: 19,
-  favId: 19,
   images: {
     image1: 'danilo-capece-NoVnXXmDNi0-unsplash.webp',
     image2: 'omid-visuals-iSsXJ8USfTk-unsplash.webp',
@@ -242,8 +221,6 @@ export const mensData = [{
   productDesc: 'Soft airy fabric styled with light lace accents.'
 }, {
   id: 23,
-  buttonTag: 23,
-  favId: 23,
   images: {
     image1: 'tuananh-blue-2QSK4kFoVZE-unsplash.webp',
     image2: 'tuananh-blue-j_3IlDX-6uQ-unsplash.webp',
@@ -266,8 +243,6 @@ export const mensData = [{
   productDesc: 'Light feel designed for warm days and simple styling.'
 }, {
   id: 29,
-  buttonTag: 29,
-  favId: 29,
   images: {
     image1: 'nathan-dumlao-AqWligQpYHM-unsplash.webp',
     image2: 'leon-skibitzki-mHUk4Se7peY-unsplash.webp',
@@ -290,8 +265,6 @@ export const mensData = [{
   productDesc: 'Smooth satin for easy flow and elegant everyday wear.'
 },  {
   id: 30,
-  buttonTag: 30,
-  favId: 30,
   images: {
     image1: 'gab-mv-DaeFHBfw-unsplash.webp',
     image2: 'gab-rqZ0iZTvRJ8-unsplash.webp',

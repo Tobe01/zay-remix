@@ -1,8 +1,6 @@
 export const kidsData = [
    {
   id: 5,
-  buttonTag: 5,
-  favId: 5,
   images: {
     image1: '2149085823.webp',
     image2: '2149085833.webp',
@@ -25,8 +23,6 @@ export const kidsData = [
   productDesc: 'Warm knit texture made for comfort and fitted modern style.'
 },  {
   id: 17,
-  buttonTag: 17,
-  favId: 17,
   images: {
     image1: '13769.webp',
     image2: '13768.webp',
@@ -49,8 +45,6 @@ export const kidsData = [
   productDesc: 'Soft stretch knit shaping a fitted feminine silhouette.'
 }, {
   id: 21,
-  buttonTag: 21,
-  favId: 21,
   images: {
     image1: '2148070384.webp',
     image2: '2148070389.webp',
@@ -73,8 +67,6 @@ export const kidsData = [
   productDesc: 'Light flowy build ideal for warm days and casual outings.'
 }, {
   id: 22,
-  buttonTag: 22,
-  favId: 22,
   images: {
     image1: '42471.webp',
     image2: '55679.webp',
@@ -97,8 +89,6 @@ export const kidsData = [
   productDesc: 'Soft stretch blend for comfort during light activity.'
 }, {
   id: 24,
-  buttonTag: 24,
-  favId: 24,
   images: {
     image1: 'modupe-falade-BayzMQkraW4-unsplash.webp',
     image2: 'modupe-falade-GJ9ed5kqWqs-unsplash.webp',
@@ -121,8 +111,6 @@ export const kidsData = [
   productDesc: 'Light knit build created for regular layering comfort.'
 },  {
   id: 25,
-  buttonTag: 25,
-  favId: 25,
   images: {
     image1: '2149067157.webp',
     image2: '2149067155.webp',
@@ -145,8 +133,6 @@ export const kidsData = [
   productDesc: 'Soft ribbed fabric made for fitted warm-weather wear.'
 },  {
   id: 26,
-  buttonTag: 26,
-  favId: 26,
   images: {
     image1: '2149067092.webp',
     image2: '2149067094.webp',
@@ -169,8 +155,6 @@ export const kidsData = [
   productDesc: 'Cotton-blend built for daily comfort and breathable fit.'
 },  {
   id: 27,
-  buttonTag: 27,
-  favId: 27,
   images: {
     image1: '2149067066.webp',
     image2: '2149067064.webp',
