@@ -21,6 +21,11 @@
     width: 15%;
   }
 
+  .checkout {
+   height: 100hv;
+   background-color: green;
+  }
+
 }
 
 /* Small–medium phones (iphone 14Promax) */
