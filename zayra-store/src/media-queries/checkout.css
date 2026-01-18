@@ -22,7 +22,7 @@
   }
 
   .checkout {
-   height: 100hv;
+    height: 100hv;
   }
 
 }
@@ -49,6 +49,11 @@
   .emptyCart img {
     width: 15%;
   }
+
+  .checkout {
+    height: 100hv;
+  }
+
 }
 
 /* small laptop - tabs */
@@ -79,5 +84,10 @@
   .emptyCart img {
     width: 10%;
   }
+
+  .checkout {
+    height: 100hv;
+  }
+
 
 }
