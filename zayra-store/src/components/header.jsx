@@ -295,7 +295,7 @@ export function Header() {
                 <div>BEAUTY</div>
               </Link>
               <Link to="/shop">
-                <div>HOME</div>
+                <div>SHOP</div>
               </Link>
             </div>
           </div>
