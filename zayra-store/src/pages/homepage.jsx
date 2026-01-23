@@ -7,7 +7,7 @@ import '../media-queries/homePage.css';
 export function HomePage(){
   return(
     <>
-      <title>Home</title>
+      <title>Zayra Store</title>
       <Header />
       <main>
           <div class="home-container">
